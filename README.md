@@ -1,6 +1,4 @@
-# 🥞 Pancake UIkit
-
-**This repository is not used anymore. See the [https://github.com/pancakeswap/pancake-toolkit](Pancake toolkit) instead**
+# ballena.io UIkit
 
 [![Version](https://img.shields.io/npm/v/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit) [![Size](https://img.shields.io/bundlephobia/min/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit)
 
