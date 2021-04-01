@@ -49,6 +49,7 @@ export type Colors = {
   text: string;
   textDisabled: string;
   textSubtle: string;
+  toggle: string;
   borderColor: string;
   card: string;
 
