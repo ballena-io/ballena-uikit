@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import { scales } from '../Checkbox/types';
-import { HandleProps, InputProps, ScaleKeys, ToggleProps } from './types';
+import { scales } from "../Checkbox/types";
+import { HandleProps, InputProps, ScaleKeys, ToggleProps } from "./types";
 
 const scaleKeyValues = {
   sm: {
