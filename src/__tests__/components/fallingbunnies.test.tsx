@@ -22,7 +22,7 @@ it('renders correctly', () => {
             class="sc-bdfBwQ ecRzkS"
             color="text"
             height="32"
-            viewBox="0 0 26 26"
+            viewBox="0 0 30 26"
             width="32"
             xmlns="http://www.w3.org/2000/svg"
           >
