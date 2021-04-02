@@ -73,13 +73,13 @@ it('renders correctly', () => {
             </button>
             <a
               aria-label="ballena.io home page"
-              class="sc-gKsewC gIywjt"
+              class="sc-gKsewC cjzqGG"
               href="/"
             >
               <svg
                 class="sc-hKgILt jamBdP mobile-icon"
                 color="text"
-                viewBox="0 0 26 26"
+                viewBox="0 0 30 26"
                 width="20px"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -91,7 +91,7 @@ it('renders correctly', () => {
               <svg
                 class="sc-hKgILt jamBdP desktop-icon"
                 color="text"
-                viewBox="0 0 200 200"
+                viewBox="0 0 116 26"
                 width="20px"
                 xmlns="http://www.w3.org/2000/svg"
               >
