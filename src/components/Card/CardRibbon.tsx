@@ -1,13 +1,13 @@
-import React from "react";
-import styled, { DefaultTheme } from "styled-components";
-import { CardRibbonProps } from "./types";
+import React from 'react';
+import styled, { DefaultTheme } from 'styled-components';
+import { CardRibbonProps } from './types';
 
 interface StyledCardRibbonProps extends CardRibbonProps {
   theme: DefaultTheme;
 }
 
 const StyledCardRibbon = styled.div<Partial<StyledCardRibbonProps>>`
-  background-color: ${({ variantColor = "secondary", theme }) => theme.colors[variantColor]};
+  background-color: ${({ variantColor = 'secondary', theme }) => theme.colors[variantColor]};
   color: white;
   margin: 0;
   padding: 0;
@@ -22,8 +22,8 @@ const StyledCardRibbon = styled.div<Partial<StyledCardRibbonProps>>`
 
   &:before,
   &:after {
-    background-color: ${({ variantColor = "secondary", theme }) => theme.colors[variantColor]};
-    content: "";
+    background-color: ${({ variantColor = 'secondary', theme }) => theme.colors[variantColor]};
+    content: '';
     height: 100%;
     margin: 0 -1px; /* Removes tiny gap */
     position: absolute;

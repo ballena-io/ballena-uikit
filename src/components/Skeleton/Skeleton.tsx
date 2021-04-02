@@ -1,7 +1,7 @@
-import React from "react";
-import styled, { keyframes } from "styled-components";
-import { space, layout } from "styled-system";
-import { SkeletonProps, animation as ANIMATION, variant as VARIANT } from "./types";
+import React from 'react';
+import styled, { keyframes } from 'styled-components';
+import { space, layout } from 'styled-system';
+import { SkeletonProps, animation as ANIMATION, variant as VARIANT } from './types';
 
 const waves = keyframes`
    from {
@@ -44,7 +44,7 @@ const Waves = styled(Root)`
   overflow: hidden;
   transform: translate3d(0, 0, 0);
   &:before {
-    content: "";
+    content: '';
     position: absolute;
     background-image: linear-gradient(90deg, transparent, rgba(243, 243, 243, 0.5), transparent);
     top: 0;

@@ -1,5 +1,5 @@
-import { useMemo, useReducer, useEffect, ReactNode, useCallback } from "react";
-import noop from "lodash/noop";
+import { useMemo, useReducer, useEffect, ReactNode, useCallback } from 'react';
+import noop from 'lodash/noop';
 
 import {
   ColumnByNamesType,
@@ -13,8 +13,8 @@ import {
   HeaderType,
   HeaderRenderType,
   ColumnStateType,
-} from "./types";
-import { byTextAscending, byTextDescending } from "./utils";
+} from './types';
+import { byTextAscending, byTextDescending } from './utils';
 
 const sortByColumn = <T extends DataType>(
   data: RowType<T>[],
@@ -80,7 +80,7 @@ const createReducer = <T extends DataType>() => (state: TableState<T>, action: T
   const rowIds: { [key: number]: boolean } = {};
 
   switch (action.type) {
-    case "SET_ROWS":
+    case 'SET_ROWS':
       rows = [...action.data];
       // preserve sorting if a sort is already enabled when data changes
       if (state.sortColumn) {
@@ -116,7 +116,7 @@ const createReducer = <T extends DataType>() => (state: TableState<T>, action: T
         columns: columnCopy,
       };
 
-    case "NEXT_PAGE":
+    case 'NEXT_PAGE':
       nextPage = state.pagination.page + 1;
       return {
         ...state,
@@ -128,7 +128,7 @@ const createReducer = <T extends DataType>() => (state: TableState<T>, action: T
           canPrev: nextPage !== 1,
         },
       };
-    case "PREV_PAGE":
+    case 'PREV_PAGE':
       prevPage = state.pagination.page === 1 ? 1 : state.pagination.page - 1;
 
       return {
@@ -141,7 +141,7 @@ const createReducer = <T extends DataType>() => (state: TableState<T>, action: T
           canPrev: prevPage !== 1,
         },
       };
-    case "TOGGLE_SORT":
+    case 'TOGGLE_SORT':
       if (!(action.columnName in state.columnsByName)) {
         throw new Error(`Invalid column, ${action.columnName} not found`);
       }
@@ -192,7 +192,7 @@ const createReducer = <T extends DataType>() => (state: TableState<T>, action: T
         sortColumn: action.columnName,
         columnsByName: getColumnsByName(columnCopy),
       };
-    case "GLOBAL_FILTER":
+    case 'GLOBAL_FILTER':
       filteredRows = action.filter(state.originalRows);
       selectedRowsById = {};
       state.selectedRows.forEach((row) => {
@@ -206,7 +206,7 @@ const createReducer = <T extends DataType>() => (state: TableState<T>, action: T
         }),
         filterOn: true,
       };
-    case "SELECT_ROW":
+    case 'SELECT_ROW':
       stateCopy = { ...state };
 
       stateCopy.rows = stateCopy.rows.map((row) => {
@@ -233,7 +233,7 @@ const createReducer = <T extends DataType>() => (state: TableState<T>, action: T
           : (stateCopy.toggleAllState = false);
 
       return stateCopy;
-    case "SEARCH_STRING":
+    case 'SEARCH_STRING':
       stateCopy = { ...state };
       stateCopy.rows = stateCopy.originalRows.filter((row) => {
         return (
@@ -246,7 +246,7 @@ const createReducer = <T extends DataType>() => (state: TableState<T>, action: T
         );
       });
       return stateCopy;
-    case "TOGGLE_ALL":
+    case 'TOGGLE_ALL':
       if (state.selectedRows.length < state.rows.length) {
         stateCopy.rows = stateCopy.rows.map((row) => {
           rowIds[row.id] = true;
@@ -271,7 +271,7 @@ const createReducer = <T extends DataType>() => (state: TableState<T>, action: T
 
       return stateCopy;
     default:
-      throw new Error("Invalid reducer action");
+      throw new Error('Invalid reducer action');
   }
 };
 
@@ -376,12 +376,12 @@ export const useTable = <T extends DataType>(
   });
 
   state.pagination.nextPage = useCallback(() => {
-    dispatch({ type: "NEXT_PAGE" });
+    dispatch({ type: 'NEXT_PAGE' });
   }, [dispatch]);
-  state.pagination.prevPage = useCallback(() => dispatch({ type: "PREV_PAGE" }), [dispatch]);
+  state.pagination.prevPage = useCallback(() => dispatch({ type: 'PREV_PAGE' }), [dispatch]);
 
   useEffect(() => {
-    dispatch({ type: "SET_ROWS", data: tableData });
+    dispatch({ type: 'SET_ROWS', data: tableData });
   }, [tableData]);
 
   const headers: HeaderType<T>[] = useMemo(() => {
@@ -398,7 +398,7 @@ export const useTable = <T extends DataType>(
 
   useEffect(() => {
     if (options && options.filter) {
-      dispatch({ type: "GLOBAL_FILTER", filter: options.filter });
+      dispatch({ type: 'GLOBAL_FILTER', filter: options.filter });
     }
   });
 
@@ -408,11 +408,11 @@ export const useTable = <T extends DataType>(
     originalRows: state.originalRows,
     selectedRows: state.selectedRows,
     dispatch,
-    selectRow: (rowId: number) => dispatch({ type: "SELECT_ROW", rowId }),
-    toggleAll: () => dispatch({ type: "TOGGLE_ALL" }),
+    selectRow: (rowId: number) => dispatch({ type: 'SELECT_ROW', rowId }),
+    toggleAll: () => dispatch({ type: 'TOGGLE_ALL' }),
     toggleSort: (columnName: string, isAscOverride?: boolean) =>
-      dispatch({ type: "TOGGLE_SORT", columnName, isAscOverride }),
-    setSearchString: (searchString: string) => dispatch({ type: "SEARCH_STRING", searchString }),
+      dispatch({ type: 'TOGGLE_SORT', columnName, isAscOverride }),
+    setSearchString: (searchString: string) => dispatch({ type: 'SEARCH_STRING', searchString }),
     pagination: state.pagination,
     toggleAllState: state.toggleAllState,
   };

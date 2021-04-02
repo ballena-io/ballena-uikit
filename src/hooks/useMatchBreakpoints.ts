@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { breakpointMap } from "../theme/base";
+import { useEffect, useState } from 'react';
+import { breakpointMap } from '../theme/base';
 
 type State = {
   [key: string]: boolean;
@@ -60,13 +60,13 @@ const useMatchBreakpoints = (): State => {
 
       // Safari < 14 fix
       if (mql.addEventListener) {
-        mql.addEventListener("change", handler);
+        mql.addEventListener('change', handler);
       }
 
       return () => {
         // Safari < 14 fix
         if (mql.removeEventListener) {
-          mql.removeEventListener("change", handler);
+          mql.removeEventListener('change', handler);
         }
       };
     });

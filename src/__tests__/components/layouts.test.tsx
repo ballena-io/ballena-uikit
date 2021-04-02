@@ -1,8 +1,8 @@
-import React from "react";
-import { renderWithTheme } from "../../testHelpers";
-import { BaseLayout, CardsLayout } from "../../components/Layouts";
+import React from 'react';
+import { renderWithTheme } from '../../testHelpers';
+import { BaseLayout, CardsLayout } from '../../components/Layouts';
 
-it("renders base layout correctly", () => {
+it('renders base layout correctly', () => {
   const { asFragment } = renderWithTheme(<BaseLayout>basic layout</BaseLayout>);
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
@@ -15,7 +15,7 @@ it("renders base layout correctly", () => {
   `);
 });
 
-it("renders card layout correctly", () => {
+it('renders card layout correctly', () => {
   const { asFragment } = renderWithTheme(<CardsLayout>cards layout</CardsLayout>);
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>

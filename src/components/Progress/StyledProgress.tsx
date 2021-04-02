@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import { space, variant as StyledSystemVariant } from "styled-system";
-import { styleVariants } from "./themes";
-import { ProgressProps, variants } from "./types";
+import styled from 'styled-components';
+import { space, variant as StyledSystemVariant } from 'styled-system';
+import { styleVariants } from './themes';
+import { ProgressProps, variants } from './types';
 
 interface BarProps {
   primary?: boolean;
@@ -21,7 +21,7 @@ Bar.defaultProps = {
 };
 
 interface StyledProgressProps {
-  variant: ProgressProps["variant"];
+  variant: ProgressProps['variant'];
 }
 
 const StyledProgress = styled.div<StyledProgressProps>`
@@ -32,8 +32,8 @@ const StyledProgress = styled.div<StyledProgressProps>`
   overflow: hidden;
 
   ${Bar} {
-    border-top-left-radius: ${({ variant }) => (variant === variants.FLAT ? "0" : "32px")};
-    border-bottom-left-radius: ${({ variant }) => (variant === variants.FLAT ? "0" : "32px")};
+    border-top-left-radius: ${({ variant }) => (variant === variants.FLAT ? '0' : '32px')};
+    border-bottom-left-radius: ${({ variant }) => (variant === variants.FLAT ? '0' : '32px')};
   }
 
   ${StyledSystemVariant({

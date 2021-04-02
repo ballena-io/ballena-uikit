@@ -1,11 +1,11 @@
-import React from "react";
-import times from "lodash/times";
-import Flex from "../Box/Flex";
-import BackgroundImage from "./BackgroundImage";
-import Img from "./Image";
+import React from 'react';
+import times from 'lodash/times';
+import Flex from '../Box/Flex';
+import BackgroundImage from './BackgroundImage';
+import Img from './Image';
 
 export default {
-  title: "Components/Image",
+  title: 'Components/Image',
   argTypes: {},
 };
 

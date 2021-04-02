@@ -1,7 +1,7 @@
-import React, { ChangeEvent } from "react";
-import { SliderContainer, BunnySlider, BarBackground, BarProgress, StyledInput, SliderLabel } from "./styles";
-import BunnyButt from "./svg/BunnyButt";
-import SliderProps from "./types";
+import React, { ChangeEvent } from 'react';
+import { SliderContainer, BunnySlider, BarBackground, BarProgress, StyledInput, SliderLabel } from './styles';
+import BunnyButt from './svg/BunnyButt';
+import SliderProps from './types';
 
 // We need to adjust the offset as the percentage increases, as 100% really is 100% - label width. The number 10 is arbitrary, but seems to work...
 const MOVING_SLIDER_LABEL_OFFSET_FACTOR = 10;
@@ -18,7 +18,7 @@ const Slider: React.FC<SliderProps> = ({ min, max, value, onValueChanged, valueL
 
   return (
     <SliderContainer {...props}>
-      <BunnyButt style={{ position: "absolute" }} />
+      <BunnyButt style={{ position: 'absolute' }} />
       <BunnySlider>
         <BarBackground />
         <BarProgress isCurrentValueMaxValue={isCurrentValueMaxValue} progress={progressPercentage} />

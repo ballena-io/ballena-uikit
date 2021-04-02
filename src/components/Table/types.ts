@@ -50,7 +50,7 @@ type RenderFunctionArgsType<T> = {
   row: T;
 };
 
-export type ColumnByNameType<T> = Omit<Required<ColumnType<T>>, "name" | "sort">;
+export type ColumnByNameType<T> = Omit<Required<ColumnType<T>>, 'name' | 'sort'>;
 
 export interface RowType<T extends DataType> {
   id: number;
@@ -132,12 +132,12 @@ export type TableState<T extends DataType> = {
 };
 
 export type TableAction<T extends DataType> =
-  | { type: "TOGGLE_SORT"; columnName: string; isAscOverride?: boolean }
-  | { type: "SELECT_ROW"; rowId: number }
-  | { type: "GLOBAL_FILTER"; filter: (row: RowType<T>[]) => RowType<T>[] }
-  | { type: "SEARCH_STRING"; searchString: string }
-  | { type: "GLOBAL_FILTER_OFF" }
-  | { type: "SET_ROWS"; data: RowType<T>[] }
-  | { type: "NEXT_PAGE" }
-  | { type: "PREV_PAGE" }
-  | { type: "TOGGLE_ALL" };
+  | { type: 'TOGGLE_SORT'; columnName: string; isAscOverride?: boolean }
+  | { type: 'SELECT_ROW'; rowId: number }
+  | { type: 'GLOBAL_FILTER'; filter: (row: RowType<T>[]) => RowType<T>[] }
+  | { type: 'SEARCH_STRING'; searchString: string }
+  | { type: 'GLOBAL_FILTER_OFF' }
+  | { type: 'SET_ROWS'; data: RowType<T>[] }
+  | { type: 'NEXT_PAGE' }
+  | { type: 'PREV_PAGE' }
+  | { type: 'TOGGLE_ALL' };

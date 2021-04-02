@@ -1,8 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
-import styled from "styled-components";
-import observerOptions from "./options";
-import Wrapper from "./Wrapper";
-import { ImageProps } from "./types";
+import React, { useEffect, useRef, useState } from 'react';
+import styled from 'styled-components';
+import observerOptions from './options';
+import Wrapper from './Wrapper';
+import { ImageProps } from './types';
 
 const StyledImage = styled.img`
   position: absolute;
