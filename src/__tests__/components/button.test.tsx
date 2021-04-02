@@ -1,8 +1,8 @@
-import React from "react";
-import { renderWithTheme } from "../../testHelpers";
-import Button from "../../components/Button/Button";
+import React from 'react';
+import { renderWithTheme } from '../../testHelpers';
+import Button from '../../components/Button/Button';
 
-it("renders correctly", () => {
+it('renders correctly', () => {
   const { asFragment } = renderWithTheme(<Button>Submit</Button>);
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>

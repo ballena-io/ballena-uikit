@@ -1,7 +1,7 @@
-import React from "react";
-import styled, { keyframes } from "styled-components";
-import BunnyIcon from "../Svg/Icons/Logo";
-import { BunnyProps, FallingBunniesProps } from "./types";
+import React from 'react';
+import styled, { keyframes } from 'styled-components';
+import BunnyIcon from '../Svg/Icons/Logo';
+import { BunnyProps, FallingBunniesProps } from './types';
 
 const bunnyFall = keyframes`
   0% {
@@ -33,7 +33,7 @@ const Bunny = styled.div<BunnyProps>`
   animation-name: ${bunnyFall};
   animation-duration: ${({ duration }) => `${duration}s`};
   animation-timing-function: linear;
-  animation-iteration-count: ${({ iterations }) => (Number.isFinite(iterations) ? String(iterations) : "infinite")};
+  animation-iteration-count: ${({ iterations }) => (Number.isFinite(iterations) ? String(iterations) : 'infinite')};
   animation-play-state: running;
 
   &:nth-child(5n + 5) {

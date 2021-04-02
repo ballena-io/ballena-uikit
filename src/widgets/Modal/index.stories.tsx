@@ -1,11 +1,11 @@
-import React from "react";
-import { Modal, useModal } from ".";
-import { InjectedProps } from "./types";
-import Button from "../../components/Button/Button";
-import Heading from "../../components/Heading/Heading";
+import React from 'react';
+import { Modal, useModal } from '.';
+import { InjectedProps } from './types';
+import Button from '../../components/Button/Button';
+import Heading from '../../components/Heading/Heading';
 
 export default {
-  title: "Widgets/Modal",
+  title: 'Widgets/Modal',
   component: Modal,
   argTypes: {},
 };

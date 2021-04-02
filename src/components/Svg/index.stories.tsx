@@ -1,10 +1,10 @@
-import React from "react";
-import Flex from "../Box/Flex";
-import Text from "../Text/Text";
-import Svg from "./Svg";
+import React from 'react';
+import Flex from '../Box/Flex';
+import Text from '../Text/Text';
+import Svg from './Svg';
 
 export default {
-  title: "Components/Svg Icons",
+  title: 'Components/Svg Icons',
   component: Svg,
   argTypes: {},
 };
@@ -25,9 +25,9 @@ export const Default: React.FC = () => {
   );
 };
 
-const context = require.context("./Icons", true, /.tsx$/);
+const context = require.context('./Icons', true, /.tsx$/);
 const components = context.keys().reduce((accum, path) => {
-  const file = path.substring(2).replace(".tsx", "");
+  const file = path.substring(2).replace('.tsx', '');
   return {
     ...accum,
     [file]: context(path),
@@ -36,7 +36,7 @@ const components = context.keys().reduce((accum, path) => {
 
 export const Icons: React.FC = () => {
   return (
-    <Flex justifyContent="start" alignItems="center" flexWrap="wrap" style={{ maxWidth: "800px" }}>
+    <Flex justifyContent="start" alignItems="center" flexWrap="wrap" style={{ maxWidth: '800px' }}>
       {Object.keys(components).map((file) => {
         const Icon = components[file].default;
         return (

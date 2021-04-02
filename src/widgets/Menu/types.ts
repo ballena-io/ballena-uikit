@@ -1,4 +1,4 @@
-import { Login } from "../WalletModal/types";
+import { Login } from '../WalletModal/types';
 
 export interface LangType {
   code: string;

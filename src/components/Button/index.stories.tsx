@@ -1,16 +1,16 @@
-import { capitalize } from "lodash";
-import React from "react";
-import { BrowserRouter, Link } from "react-router-dom";
-import styled from "styled-components";
-import Box from "../Box/Box";
-import Flex from "../Box/Flex";
-import { AddIcon, AutoRenewIcon, LogoIcon } from "../Svg";
-import IconButton from "./IconButton";
-import Button from "./Button";
-import { scales, variants } from "./types";
+import { capitalize } from 'lodash';
+import React from 'react';
+import { BrowserRouter, Link } from 'react-router-dom';
+import styled from 'styled-components';
+import Box from '../Box/Box';
+import Flex from '../Box/Flex';
+import { AddIcon, AutoRenewIcon, LogoIcon } from '../Svg';
+import IconButton from './IconButton';
+import Button from './Button';
+import { scales, variants } from './types';
 
 export default {
-  title: "Components/Button",
+  title: 'Components/Button',
   component: Button,
   argTypes: {},
 };

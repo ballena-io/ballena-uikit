@@ -1,8 +1,8 @@
-import React from "react";
-import { renderWithTheme } from "../../testHelpers";
-import Skeleton from "../../components/Skeleton/Skeleton";
+import React from 'react';
+import { renderWithTheme } from '../../testHelpers';
+import Skeleton from '../../components/Skeleton/Skeleton';
 
-it("renders correctly", () => {
+it('renders correctly', () => {
   const { asFragment } = renderWithTheme(<Skeleton />);
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
@@ -13,7 +13,7 @@ it("renders correctly", () => {
   `);
 });
 
-it("renders correctly avatar", () => {
+it('renders correctly avatar', () => {
   const { asFragment } = renderWithTheme(<Skeleton width={50} height={50} variant="circle" />);
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
@@ -26,12 +26,12 @@ it("renders correctly avatar", () => {
   `);
 });
 
-it("renders correctly waves animation", () => {
+it('renders correctly waves animation', () => {
   const { asFragment } = renderWithTheme(<Skeleton width={50} height={50} animation="waves" />);
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <div
-        class="sc-bdfBwQ sc-dlfnbm eWzhbe hYUQGT"
+        class="sc-bdfBwQ sc-dlfnbm eWzhbe blJkQf"
         height="50"
         width="50"
       />

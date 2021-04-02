@@ -1,17 +1,17 @@
-import React from "react";
-import styled, { DefaultTheme } from "styled-components";
-import CheckmarkCircleIcon from "../Svg/Icons/CheckmarkCircle";
-import ErrorIcon from "../Svg/Icons/Error";
-import BlockIcon from "../Svg/Icons/Block";
-import InfoIcon from "../Svg/Icons/Info";
-import { Text } from "../Text";
-import { IconButton } from "../Button";
-import { CloseIcon } from "../Svg";
-import Flex from "../Box/Flex";
-import { AlertProps, variants } from "./types";
+import React from 'react';
+import styled, { DefaultTheme } from 'styled-components';
+import CheckmarkCircleIcon from '../Svg/Icons/CheckmarkCircle';
+import ErrorIcon from '../Svg/Icons/Error';
+import BlockIcon from '../Svg/Icons/Block';
+import InfoIcon from '../Svg/Icons/Info';
+import { Text } from '../Text';
+import { IconButton } from '../Button';
+import { CloseIcon } from '../Svg';
+import Flex from '../Box/Flex';
+import { AlertProps, variants } from './types';
 
 interface ThemedIconLabel {
-  variant: AlertProps["variant"];
+  variant: AlertProps['variant'];
   theme: DefaultTheme;
   hasDescription: boolean;
 }
@@ -30,7 +30,7 @@ const getThemeColor = ({ theme, variant = variants.INFO }: ThemedIconLabel) => {
   }
 };
 
-const getIcon = (variant: AlertProps["variant"] = variants.INFO) => {
+const getIcon = (variant: AlertProps['variant'] = variants.INFO) => {
   switch (variant) {
     case variants.DANGER:
       return BlockIcon;
@@ -56,7 +56,7 @@ const Details = styled.div<{ hasHandler: boolean }>`
   flex: 1;
   padding-bottom: 12px;
   padding-left: 12px;
-  padding-right: ${({ hasHandler }) => (hasHandler ? `${withHandlerSpacing}px` : "12px")};
+  padding-right: ${({ hasHandler }) => (hasHandler ? `${withHandlerSpacing}px` : '12px')};
   padding-top: 12px;
 `;
 
@@ -84,7 +84,7 @@ const Alert: React.FC<AlertProps> = ({ title, children, variant, onClick }) => {
       </IconLabel>
       <Details hasHandler={!!onClick}>
         <Text bold>{title}</Text>
-        {typeof children === "string" ? <Text as="p">{children}</Text> : children}
+        {typeof children === 'string' ? <Text as="p">{children}</Text> : children}
       </Details>
       {onClick && (
         <CloseHandler>

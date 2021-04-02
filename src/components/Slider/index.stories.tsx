@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import styled from "styled-components";
-import Slider from "./Slider";
-import Flex from "../Box/Flex";
+import React, { useState } from 'react';
+import styled from 'styled-components';
+import Slider from './Slider';
+import Flex from '../Box/Flex';
 
 export default {
-  title: "Components/Slider",
+  title: 'Components/Slider',
   component: Slider,
   argTypes: {},
 };
@@ -27,7 +27,7 @@ const SliderVariant = ({ initialValue }: { initialValue: number }) => {
       max={max}
       value={value}
       onValueChanged={setValue}
-      valueLabel={value === max ? "MAX" : `${percentage}%`}
+      valueLabel={value === max ? 'MAX' : `${percentage}%`}
     />
   );
 };

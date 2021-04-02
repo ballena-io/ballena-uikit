@@ -1,10 +1,10 @@
-import React, { useCallback, useEffect, useRef } from "react";
-import { CSSTransition } from "react-transition-group";
-import styled from "styled-components";
-import { Alert, alertVariants } from "../../components/Alert";
-import { Text } from "../../components/Text";
-import ToastAction from "./ToastAction";
-import { ToastProps, types } from "./types";
+import React, { useCallback, useEffect, useRef } from 'react';
+import { CSSTransition } from 'react-transition-group';
+import styled from 'styled-components';
+import { Alert, alertVariants } from '../../components/Alert';
+import { Text } from '../../components/Text';
+import ToastAction from './ToastAction';
+import { ToastProps, types } from './types';
 
 const alertTypeMap = {
   [types.INFO]: alertVariants.INFO,

@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import { space } from "styled-system";
-import { ContainerProps } from "./types";
+import styled from 'styled-components';
+import { space } from 'styled-system';
+import { ContainerProps } from './types';
 
 const Wrapper = styled.div<ContainerProps>`
   position: relative;

@@ -1,9 +1,9 @@
-import React from "react";
-import styled from "styled-components";
-import { BaseLayout, CardsLayout } from ".";
+import React from 'react';
+import styled from 'styled-components';
+import { BaseLayout, CardsLayout } from '.';
 
 export default {
-  title: "Components/Layouts",
+  title: 'Components/Layouts',
   argTypes: {},
 };
 

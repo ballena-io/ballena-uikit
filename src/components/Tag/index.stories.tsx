@@ -1,13 +1,13 @@
-import React from "react";
-import { capitalize } from "lodash";
-import Box from "../Box/Box";
-import Flex from "../Box/Flex";
-import { CommunityIcon, RemoveIcon } from "../Svg";
-import Tag from "./Tag";
-import { scales, variants } from "./types";
+import React from 'react';
+import { capitalize } from 'lodash';
+import Box from '../Box/Box';
+import Flex from '../Box/Flex';
+import { CommunityIcon, RemoveIcon } from '../Svg';
+import Tag from './Tag';
+import { scales, variants } from './types';
 
 export default {
-  title: "Components/Tag",
+  title: 'Components/Tag',
   argTypes: {},
 };
 

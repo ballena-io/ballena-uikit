@@ -1,10 +1,11 @@
-import React from "react";
-import styled from "styled-components";
-import { Link } from "react-router-dom";
-import { LogoIcon } from "../../../components/Svg";
-import Flex from "../../../components/Box/Flex";
-import { HamburgerIcon, HamburgerCloseIcon, LogoIcon as LogoWithText } from "../icons";
-import MenuButton from "./MenuButton";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+
+import Flex from '../../../components/Box/Flex';
+import { LogoIcon } from '../../../components/Svg';
+import { HamburgerCloseIcon, HamburgerIcon, LogoIcon as LogoWithText } from '../icons';
+import MenuButton from './MenuButton';
 
 interface Props {
   isPushed: boolean;
@@ -32,7 +33,7 @@ const StyledLink = styled(Link)`
 `;
 
 const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
-  const isAbsoluteUrl = href.startsWith("http");
+  const isAbsoluteUrl = href.startsWith('http');
   const innerLogo = (
     <>
       <LogoIcon className="mobile-icon" />
@@ -50,11 +51,11 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Pancake home page">
+        <StyledLink as="a" href={href} aria-label="ballena.io home page">
           {innerLogo}
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Pancake home page">
+        <StyledLink to={href} aria-label="ballena.io home page">
           {innerLogo}
         </StyledLink>
       )}

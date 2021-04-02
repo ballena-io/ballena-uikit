@@ -1,113 +1,113 @@
 export const links = [
   {
-    label: "Home",
-    icon: "HomeIcon",
-    href: "/",
+    label: 'Home',
+    icon: 'HomeIcon',
+    href: '/',
   },
   {
-    label: "Trade",
-    icon: "TradeIcon",
+    label: 'Trade',
+    icon: 'TradeIcon',
     items: [
       {
-        label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
+        label: 'Exchange',
+        href: 'https://exchange.pancakeswap.finance',
       },
       {
-        label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
+        label: 'Liquidity',
+        href: 'https://exchange.pancakeswap.finance/#/pool',
       },
     ],
   },
   {
-    label: "Farms",
-    icon: "FarmIcon",
-    href: "/farms",
+    label: 'Farms',
+    icon: 'FarmIcon',
+    href: '/farms',
   },
   {
-    label: "Pools",
-    icon: "PoolIcon",
-    href: "/syrup",
+    label: 'Pools',
+    icon: 'PoolIcon',
+    href: '/syrup',
   },
   {
-    label: "Lottery",
-    icon: "TicketIcon",
-    href: "/lottery",
+    label: 'Lottery',
+    icon: 'TicketIcon',
+    href: '/lottery',
   },
   {
-    label: "NFT",
-    icon: "NftIcon",
-    href: "/nft",
+    label: 'NFT',
+    icon: 'NftIcon',
+    href: '/nft',
   },
   {
-    label: "Profile & Teams",
-    icon: "GroupsIcon",
+    label: 'Profile & Teams',
+    icon: 'GroupsIcon',
     items: [
       {
-        label: "Leaderboard",
-        href: "/teams",
+        label: 'Leaderboard',
+        href: '/teams',
       },
       {
-        label: "YourProfile",
-        href: "/",
+        label: 'YourProfile',
+        href: '/',
       },
     ],
-    calloutClass: "rainbow",
+    calloutClass: 'rainbow',
   },
   {
-    label: "Info",
-    icon: "InfoIcon",
+    label: 'Info',
+    icon: 'InfoIcon',
     items: [
       {
-        label: "Overview",
-        href: "https://pancakeswap.info",
+        label: 'Overview',
+        href: 'https://pancakeswap.info',
       },
       {
-        label: "Tokens",
-        href: "https://pancakeswap.info/tokens",
+        label: 'Tokens',
+        href: 'https://pancakeswap.info/tokens',
       },
       {
-        label: "Pairs",
-        href: "https://pancakeswap.info/pairs",
+        label: 'Pairs',
+        href: 'https://pancakeswap.info/pairs',
       },
       {
-        label: "Accounts",
-        href: "https://pancakeswap.info/accounts",
-      },
-    ],
-  },
-  {
-    label: "IFO",
-    icon: "IfoIcon",
-    items: [
-      {
-        label: "Next",
-        href: "/ifo",
-      },
-      {
-        label: "History",
-        href: "/ifo/history",
+        label: 'Accounts',
+        href: 'https://pancakeswap.info/accounts',
       },
     ],
   },
   {
-    label: "More",
-    icon: "MoreIcon",
+    label: 'IFO',
+    icon: 'IfoIcon',
     items: [
       {
-        label: "Voting",
-        href: "https://voting.pancakeswap.finance",
+        label: 'Next',
+        href: '/ifo',
       },
       {
-        label: "Github",
-        href: "https://github.com/pancakeswap",
+        label: 'History',
+        href: '/ifo/history',
+      },
+    ],
+  },
+  {
+    label: 'More',
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: 'Voting',
+        href: 'https://voting.pancakeswap.finance',
       },
       {
-        label: "Docs",
-        href: "https://docs.pancakeswap.finance",
+        label: 'Github',
+        href: 'https://github.com/pancakeswap',
       },
       {
-        label: "Blog",
-        href: "https://pancakeswap.medium.com",
+        label: 'Docs',
+        href: 'https://docs.pancakeswap.finance',
+      },
+      {
+        label: 'Blog',
+        href: 'https://pancakeswap.medium.com',
       },
     ],
   },
@@ -115,31 +115,31 @@ export const links = [
 
 export const socials = [
   {
-    label: "Telegram",
-    icon: "TelegramIcon",
+    label: 'Telegram',
+    icon: 'TelegramIcon',
     items: [
       {
-        label: "English",
-        href: "https://t.me/ballenaenglish",
+        label: 'English',
+        href: 'https://t.me/ballenaenglish',
       },
       {
-        label: "Español",
-        href: "https://t.me/ballenaspanish",
+        label: 'Español',
+        href: 'https://t.me/ballenaspanish',
       },
     ],
   },
   {
-    label: "Twitter",
-    icon: "TwitterIcon",
-    href: "",
+    label: 'Twitter',
+    icon: 'TwitterIcon',
+    href: '',
     items: [
       {
-        label: "English",
-        href: "https://twitter.com/ballenaio",
+        label: 'English',
+        href: 'https://twitter.com/ballenaio',
       },
       {
-        label: "Español",
-        href: "https://twitter.com/BallenaioE",
+        label: 'Español',
+        href: 'https://twitter.com/BallenaioE',
       },
     ],
   },

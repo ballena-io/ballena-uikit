@@ -1,8 +1,8 @@
-import React from "react";
-import { renderWithTheme } from "../../testHelpers";
-import Dropdown from "../../components/Dropdown/Dropdown";
+import React from 'react';
+import { renderWithTheme } from '../../testHelpers';
+import Dropdown from '../../components/Dropdown/Dropdown';
 
-it("renders correctly", () => {
+it('renders correctly', () => {
   const { asFragment } = renderWithTheme(<Dropdown target={<div>target</div>} />);
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>

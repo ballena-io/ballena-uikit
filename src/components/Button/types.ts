@@ -1,21 +1,21 @@
-import { ComponentProps, ElementType, ReactElement, ReactNode } from "react";
-import { Link } from "react-router-dom";
-import { LayoutProps, SpaceProps } from "styled-system";
+import { ComponentProps, ElementType, ReactElement, ReactNode } from 'react';
+import { Link } from 'react-router-dom';
+import { LayoutProps, SpaceProps } from 'styled-system';
 
 export const scales = {
-  MD: "md",
-  SM: "sm",
-  XS: "xs",
+  MD: 'md',
+  SM: 'sm',
+  XS: 'xs',
 } as const;
 
 export const variants = {
-  PRIMARY: "primary",
-  SECONDARY: "secondary",
-  TERTIARY: "tertiary",
-  TEXT: "text",
-  DANGER: "danger",
-  SUBTLE: "subtle",
-  SUCCESS: "success",
+  PRIMARY: 'primary',
+  SECONDARY: 'secondary',
+  TERTIARY: 'tertiary',
+  TEXT: 'text',
+  DANGER: 'danger',
+  SUBTLE: 'subtle',
+  SUCCESS: 'success',
 } as const;
 
 export type Scale = typeof scales[keyof typeof scales];
@@ -32,12 +32,12 @@ export type MergeProps<E extends ElementType> = AsProps<E> & Omit<ComponentProps
 
 export type PolymorphicComponentProps<E extends ElementType, P> = P & MergeProps<E>;
 
-export type PolymorphicComponent<P, D extends ElementType = "button"> = <E extends ElementType = D>(
+export type PolymorphicComponent<P, D extends ElementType = 'button'> = <E extends ElementType = D>(
   props: PolymorphicComponentProps<E, P>
 ) => ReactElement | null;
 
 export interface BaseButtonProps extends LayoutProps, SpaceProps {
-  as?: "a" | "button" | typeof Link;
+  as?: 'a' | 'button' | typeof Link;
   external?: boolean;
   isLoading?: boolean;
   scale?: Scale;
@@ -47,4 +47,4 @@ export interface BaseButtonProps extends LayoutProps, SpaceProps {
   endIcon?: ReactNode;
 }
 
-export type ButtonProps<P extends ElementType = "button"> = PolymorphicComponentProps<P, BaseButtonProps>;
+export type ButtonProps<P extends ElementType = 'button'> = PolymorphicComponentProps<P, BaseButtonProps>;

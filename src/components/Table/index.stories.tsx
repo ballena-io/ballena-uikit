@@ -1,8 +1,8 @@
-import React, { useMemo } from "react";
-import { useTable, ColumnType } from "./index";
-import { data, columns } from "./example/const";
-import StyledTh from "./example/header";
-import { DataType } from "./types";
+import React, { useMemo } from 'react';
+import { useTable, ColumnType } from './index';
+import { data, columns } from './example/const';
+import StyledTh from './example/header';
+import { DataType } from './types';
 
 const Table = <T extends DataType>({ _columns, _data }: { _columns: ColumnType<T>[]; _data: T[] }) => {
   const { headers, rows } = useTable(_columns, _data, {
@@ -43,14 +43,14 @@ const TableComponent: React.FunctionComponent = () => {
 };
 
 export default {
-  title: "Components/Table",
+  title: 'Components/Table',
   component: TableComponent,
   argTypes: {},
 };
 
 export const Default: React.FC = () => {
   return (
-    <div style={{ width: "500px" }}>
+    <div style={{ width: '500px' }}>
       <TableComponent />
     </div>
   );

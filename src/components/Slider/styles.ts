@@ -1,8 +1,8 @@
-import { InputHTMLAttributes } from "react";
-import styled from "styled-components";
-import { Box } from "../Box";
-import bunnyHeadMain from "./svg/bunnyhead-main.svg";
-import bunnyHeadMax from "./svg/bunnyhead-max.svg";
+import { InputHTMLAttributes } from 'react';
+import styled from 'styled-components';
+import { Box } from '../Box';
+import bunnyHeadMain from './svg/bunnyhead-main.svg';
+import bunnyHeadMax from './svg/bunnyhead-max.svg';
 
 export const SliderContainer = styled(Box)`
   position: relative;
@@ -92,7 +92,7 @@ export const BarBackground = styled.div`
 
 export const BarProgress = styled.div<{ progress: number; isCurrentValueMaxValue: boolean }>`
   position: absolute;
-  width: ${({ progress, isCurrentValueMaxValue }) => (isCurrentValueMaxValue ? "calc(100% - 16px)" : `${progress}%`)};
+  width: ${({ progress, isCurrentValueMaxValue }) => (isCurrentValueMaxValue ? 'calc(100% - 16px)' : `${progress}%`)};
   height: 10px;
   top: 18px;
 

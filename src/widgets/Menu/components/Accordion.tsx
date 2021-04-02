@@ -1,9 +1,9 @@
-import React, { ReactNode, useState } from "react";
-import styled from "styled-components";
-import { MENU_ENTRY_HEIGHT } from "../config";
-import { LinkLabel, MenuEntry } from "./MenuEntry";
-import { PushedProps } from "../types";
-import { ArrowDropDownIcon, ArrowDropUpIcon } from "../../../components/Svg";
+import React, { ReactNode, useState } from 'react';
+import styled from 'styled-components';
+import { MENU_ENTRY_HEIGHT } from '../config';
+import { LinkLabel, MenuEntry } from './MenuEntry';
+import { PushedProps } from '../types';
+import { ArrowDropDownIcon, ArrowDropUpIcon } from '../../../components/Svg';
 
 interface Props extends PushedProps {
   label: string;
@@ -25,7 +25,7 @@ const AccordionContent = styled.div<{ isOpen: boolean; isPushed: boolean; maxHei
   max-height: ${({ isOpen, maxHeight }) => (isOpen ? `${maxHeight}px` : 0)};
   transition: max-height 0.3s ease-out;
   overflow: hidden;
-  border-color: ${({ isOpen, isPushed }) => (isOpen && isPushed ? "rgba(133, 133, 133, 0.1)" : "transparent")};
+  border-color: ${({ isOpen, isPushed }) => (isOpen && isPushed ? 'rgba(133, 133, 133, 0.1)' : 'transparent')};
   border-style: solid;
   border-width: 1px 0;
 `;
