@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+
 import Text from '../Text/Text';
-import { tags, sizes, HeadingProps } from './types';
+import { HeadingProps, sizes, tags } from './types';
 
 const style = {
   [sizes.MD]: {
@@ -22,6 +23,7 @@ const style = {
 };
 
 const Heading = styled(Text).attrs({ bold: true })<HeadingProps>`
+  font-family: 'dosis', sans-serif;
   font-size: ${({ size }) => style[size || sizes.MD].fontSize};
   font-weight: 600;
   line-height: 1.1;
