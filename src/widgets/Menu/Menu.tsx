@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import Overlay from '../../components/Overlay/Overlay';
 import Flex from '../../components/Box/Flex';
