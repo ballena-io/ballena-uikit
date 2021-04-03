@@ -1,4 +1,4 @@
-import { MediaQueries, Breakpoints, Spacing } from './types';
+import { Breakpoints, MediaQueries, Spacing } from './types';
 
 export const breakpointMap: { [key: string]: number } = {
   xs: 370,
@@ -32,8 +32,8 @@ const spacing: Spacing = [0, 4, 8, 16, 24, 32, 48, 64];
 
 const radii = {
   small: '4px',
-  default: '16px',
-  card: '32px',
+  default: '8px',
+  card: '8px',
   circle: '50%',
 };
 

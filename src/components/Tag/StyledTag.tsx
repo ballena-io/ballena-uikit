@@ -1,5 +1,6 @@
 import styled, { DefaultTheme } from 'styled-components';
 import { space, variant } from 'styled-system';
+
 import { Colors } from '../../theme/types';
 import { scaleVariants, styleVariants } from './theme';
 import { TagProps, variants } from './types';
@@ -25,7 +26,7 @@ const getOutlineStyles = ({ outline, theme, variant: variantKey = variants.PRIMA
 
 export const StyledTag = styled.div<ThemedProps>`
   align-items: center;
-  border-radius: 16px;
+  border-radius: 8px;
   color: #ffffff;
   display: inline-flex;
   font-weight: 400;
