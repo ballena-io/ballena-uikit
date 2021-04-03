@@ -75,7 +75,6 @@ const Menu: React.FC<NavProps> = ({
   const { isXl } = useMatchBreakpoints();
   const isMobile = isXl === false;
   const [isPushed, setIsPushed] = useState(!isMobile);
-  const refPrevOffset = useRef(window.pageYOffset);
 
   // Find the home link if provided
   const homeLink = links.find((link) => link.label === 'Home');
