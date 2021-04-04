@@ -1,7 +1,6 @@
-import throttle from 'lodash/throttle';
-import React, { useEffect, useRef, useState } from 'react';
-import styled from 'styled-components';
 import React, { useState } from 'react';
+import styled from 'styled-components';
+
 import Flex from '../../components/Box/Flex';
 import Overlay from '../../components/Overlay/Overlay';
 import { useMatchBreakpoints } from '../../hooks';
@@ -17,7 +16,7 @@ const Wrapper = styled.div`
   width: 100%;
 `;
 
-const StyledNav = styled.nav<{ showMenu: boolean }>`
+const StyledNav = styled.nav`
   color: ${({ theme }) => theme.nav.color}:
   position: fixed;
   top: 0;
