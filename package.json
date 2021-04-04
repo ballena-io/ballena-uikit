@@ -1,6 +1,6 @@
 {
   "name": "@ballena-io/ballena-uikit",
-  "version": "0.15.6",
+  "version": "0.15.7",
   "description": "Set of UI components for ballena.io projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
