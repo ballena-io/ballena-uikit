@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import Text from '../../components/Text/Text';
+
 import { CopyIcon } from '../../components/Svg';
+import Text from '../../components/Text/Text';
 
 interface Props {
   toCopy: string;
@@ -23,7 +24,7 @@ const Tooltip = styled.div<{ isTooltipDisplayed: boolean }>`
   text-align: center;
   background-color: ${({ theme }) => theme.colors.contrast};
   color: ${({ theme }) => theme.colors.invertedContrast};
-  border-radius: 16px;
+  border-radius: 8px;
   opacity: 0.7;
 `;
 

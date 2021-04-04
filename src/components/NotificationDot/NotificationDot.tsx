@@ -1,6 +1,7 @@
-import React, { cloneElement, Children, ReactElement } from 'react';
+import React, { Children, cloneElement, ReactElement } from 'react';
 import styled from 'styled-components';
-import { NotificationDotProps, DotProps } from './types';
+
+import { DotProps, NotificationDotProps } from './types';
 
 const NotificationDotRoot = styled.span`
   display: inline-flex;
@@ -17,7 +18,7 @@ const Dot = styled.span<DotProps>`
   pointer-events: none;
   border: 2px solid ${({ theme }) => theme.colors.invertedContrast};
   border-radius: 50%;
-  background-color: ${({ theme }) => theme.colors.failure};
+  background-color: ${({ theme }) => theme.colors.success};
 `;
 
 const NotificationDot: React.FC<NotificationDotProps> = ({ show = false, children, ...props }) => (

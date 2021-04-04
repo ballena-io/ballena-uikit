@@ -1,4 +1,5 @@
 import styled, { DefaultTheme } from 'styled-components';
+
 import { Variant, variants } from '../Button/types';
 
 type StyledButtonMenuProps = {
@@ -12,7 +13,7 @@ const getBackgroundColor = ({ theme, variant }: StyledButtonMenuProps) => {
 
 const StyledButtonMenu = styled.div<{ variant: Variant }>`
   background-color: ${getBackgroundColor};
-  border-radius: 16px;
+  border-radius: 8px;
   display: inline-flex;
 
   & > button + button,

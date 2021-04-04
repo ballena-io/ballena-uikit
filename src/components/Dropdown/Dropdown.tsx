@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { DropdownProps, PositionProps, Position } from './types';
+
+import { DropdownProps, Position, PositionProps } from './types';
 
 const getLeft = ({ position }: PositionProps) => {
   if (position === 'top-right') {
@@ -17,6 +18,7 @@ const getBottom = ({ position }: PositionProps) => {
 };
 
 const DropdownContent = styled.div<{ position: Position }>`
+  color: ${({ theme }) => theme.nav.color};
   width: max-content;
   display: none;
   flex-direction: column;

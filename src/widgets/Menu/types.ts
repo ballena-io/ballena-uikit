@@ -19,6 +19,7 @@ export interface PushedProps {
 }
 
 export interface NavTheme {
+  color?: string;
   background: string;
   hover: string;
 }
