@@ -11,7 +11,7 @@ const DARK_BLUE_SECOND = '#1D3149';
 const DARK_MEDIUM_BLUE = '#111D2C';
 const DARK_MODE_ACCENT_BLUE = '#00B5EB';
 
-// const ACCENT_BLUE_BORDER = `1px solid ${ACCENT_BLUE}`;
+export const ACCENT_BLUE_BORDER = `1px solid ${ACCENT_BLUE}`;
 
 export const baseColors = {
   failure: '#C53636',
@@ -19,8 +19,6 @@ export const baseColors = {
   primaryBright: WHITE_BLUE,
   primaryDark: DARK_BLUE,
   secondary: '#045077',
-  // success: '#40A048',
-  // success: '#48BF91',
   success: '#f78340',
   warning: '#a76f8b',
 };
@@ -43,7 +41,7 @@ export const lightColors: Colors = {
   textDisabled: '#BDC2C4',
   textSubtle: DARK_MODE_ACCENT_BLUE,
   toggle: ACCENT_BLUE,
-  borderColor: '#E9EAEB',
+  borderColor: '#056684',
   card: '#EAF8FF',
   gradients: {
     bubblegum: 'linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)',
@@ -66,7 +64,7 @@ export const darkColors: Colors = {
   textDisabled: '#666171',
   textSubtle: ACCENT_BLUE,
   toggle: DARK_MODE_ACCENT_BLUE,
-  borderColor: '#524B63',
+  borderColor: '#056684',
   card: DARK_BLUE,
   gradients: {
     bubblegum: 'linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)',
