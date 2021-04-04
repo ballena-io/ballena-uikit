@@ -1,15 +1,16 @@
-import React, { useState, useEffect, useRef } from 'react';
-import styled from 'styled-components';
 import throttle from 'lodash/throttle';
-import Overlay from '../../components/Overlay/Overlay';
+import React, { useEffect, useRef, useState } from 'react';
+import styled from 'styled-components';
+
 import Flex from '../../components/Box/Flex';
+import Overlay from '../../components/Overlay/Overlay';
 import { useMatchBreakpoints } from '../../hooks';
+import Avatar from './components/Avatar';
 import Logo from './components/Logo';
 import Panel from './components/Panel';
 import UserBlock from './components/UserBlock';
+import { MENU_HEIGHT, SIDEBAR_WIDTH_FULL, SIDEBAR_WIDTH_REDUCED } from './config';
 import { NavProps } from './types';
-import Avatar from './components/Avatar';
-import { MENU_HEIGHT, SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from './config';
 
 const Wrapper = styled.div`
   position: relative;
@@ -17,6 +18,7 @@ const Wrapper = styled.div`
 `;
 
 const StyledNav = styled.nav<{ showMenu: boolean }>`
+  color: ${({ theme }) => theme.nav.color}:
   position: fixed;
   top: ${({ showMenu }) => (showMenu ? 0 : `-${MENU_HEIGHT}px`)};
   left: 0;
