@@ -119,7 +119,7 @@ it('renders correctly', () => {
           class="sc-jJEJSO hYddnZ"
         >
           <div
-            class="sc-fKFyDc dfJluT"
+            class="sc-fKFyDc kASSBr"
           >
             <div
               class="sc-crrsfI laFgBV"

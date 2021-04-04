@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { baseColors } from '../../theme/colors';
 import { scales } from '../Checkbox/types';
 import { HandleProps, InputProps, ScaleKeys, ToggleProps } from './types';
 
@@ -29,7 +30,7 @@ const getScale = (property: ScaleKeys) => ({ scale = scales.MD }: ToggleProps) =
 };
 
 export const Handle = styled.div<HandleProps>`
-  background-color: ${({ theme }) => theme.toggle.handleBackground};
+  background-color: ${({ theme, checked }) => (checked ? baseColors.primaryDark : theme.toggle.handleBackground)};
   border-radius: 50%;
   cursor: pointer;
   height: ${getScale('handleHeight')};
@@ -54,11 +55,11 @@ export const Input = styled.input<InputProps>`
   }
 
   &:focus + ${Handle} {
-    box-shadow: ${({ theme }) => theme.shadows.success};
+    box-shadow: ${({ theme }) => theme.shadows.focus};
   }
 
   &:hover + ${Handle}:not(:disabled):not(:checked) {
-    box-shadow: ${({ theme }) => theme.shadows.success};
+    box-shadow: ${({ theme }) => theme.shadows.focus};
   }
 `;
 
