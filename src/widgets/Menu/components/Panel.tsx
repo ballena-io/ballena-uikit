@@ -6,12 +6,13 @@ import { SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from '../config';
 import { PanelProps, PushedProps } from '../types';
 
 interface Props extends PanelProps, PushedProps {
+  showMenu: boolean;
   isMobile: boolean;
 }
 
-const StyledPanel = styled.div<{ isPushed: boolean }>`
+const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   position: fixed;
-  padding-top: '80px';
+  padding-top: ${({ showMenu }) => (showMenu ? '80px' : 0)};
   top: 0;
   left: 0;
   display: flex;
@@ -34,9 +35,9 @@ const StyledPanel = styled.div<{ isPushed: boolean }>`
 `;
 
 const Panel: React.FC<Props> = (props) => {
-  const { isPushed } = props;
+  const { isPushed, showMenu } = props;
   return (
-    <StyledPanel isPushed={isPushed}>
+    <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
       <PanelFooter {...props} />
     </StyledPanel>

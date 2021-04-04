@@ -49,7 +49,7 @@ it('renders correctly', () => {
         class="sc-kLgntA hmuPEi"
       >
         <nav
-          class="sc-iktFzd dcjTPd"
+          class="sc-iktFzd jjwJYC"
         >
           <div
             class="sc-gsTCUz sc-dlfnbm jLyPtw byPlie"
@@ -119,7 +119,7 @@ it('renders correctly', () => {
           class="sc-jJEJSO hYddnZ"
         >
           <div
-            class="sc-dmlrTW dvkfLy"
+            class="sc-dmlrTW kiUUDh"
           >
             <div
               class="sc-kEjbxe fnkFQx"
@@ -496,7 +496,7 @@ it('renders correctly', () => {
             </div>
           </div>
           <div
-            class="sc-hiSbYr hHwNRW"
+            class="sc-hiSbYr crsCoN"
           >
             body
           </div>
