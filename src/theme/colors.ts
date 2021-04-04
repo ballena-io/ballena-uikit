@@ -4,7 +4,6 @@ import { Colors } from './types';
 const BRIGHT_BLUE = '#D8F2FE';
 export const ACCENT_BLUE = '#49BEFA';
 const WHITE_BLUE = '#EBF8FF';
-const BRIGHT_BACKGROUND = '#d8f1fe';
 
 // Dark
 const DARK_BLUE = '#121E2C';
@@ -33,10 +32,10 @@ export const brandColors = {
 export const lightColors: Colors = {
   ...baseColors,
   ...brandColors,
-  background: BRIGHT_BACKGROUND,
+  background: BRIGHT_BLUE,
   backgroundDisabled: '#EBF8FE',
   contrast: DARK_BLUE,
-  invertedContrast: BRIGHT_BACKGROUND,
+  invertedContrast: BRIGHT_BLUE,
   input: WHITE_BLUE,
   inputSecondary: '#ffffff',
   tertiary: '#EFF4F5',
@@ -57,10 +56,10 @@ export const darkColors: Colors = {
   secondary: '#4EC0F9',
   background: DARK_BLUE_SECOND,
   backgroundDisabled: '#294466',
-  contrast: BRIGHT_BACKGROUND,
+  contrast: BRIGHT_BLUE,
   invertedContrast: DARK_BLUE,
   input: DARK_MEDIUM_BLUE,
-  inputSecondary: BRIGHT_BACKGROUND,
+  inputSecondary: BRIGHT_BLUE,
   primaryDark: '#0098A1',
   tertiary: '#353547',
   text: BRIGHT_BLUE,
