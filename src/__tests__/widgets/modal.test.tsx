@@ -21,7 +21,7 @@ it('renders correctly', () => {
             class="sc-dlfnbm sc-hKgILt sc-pFZIQ isWJdv dRpfYw ePMCIJ"
           >
             <h2
-              class="sc-bdfBwQ sc-gsTCUz hSHKN euWWbB"
+              class="sc-bdfBwQ sc-gsTCUz hSHKN TjLhp"
               color="text"
             >
               Title
