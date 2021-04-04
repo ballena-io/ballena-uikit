@@ -4,7 +4,6 @@ import { Colors } from './types';
 const BRIGHT_BLUE = '#D8F2FE';
 export const ACCENT_BLUE = '#49BEFA';
 const WHITE_BLUE = '#EBF8FF';
-// const MEDIUM_BLUE = "#9ADDFE";
 const BRIGHT_BACKGROUND = '#d8f1fe';
 
 // Dark
@@ -21,8 +20,10 @@ export const baseColors = {
   primaryBright: WHITE_BLUE,
   primaryDark: DARK_BLUE,
   secondary: '#045077',
-  success: '#40A048',
-  warning: '#FF8B47',
+  // success: '#40A048',
+  // success: '#48BF91',
+  success: '#f78340',
+  warning: '#a76f8b',
 };
 
 export const brandColors = {
