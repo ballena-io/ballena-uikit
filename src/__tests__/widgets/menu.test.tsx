@@ -125,7 +125,7 @@ it('renders correctly', () => {
               class="sc-crrsfI laFgBV"
             >
               <div
-                class="sc-jrAGrp dBKxzB"
+                class="sc-jrAGrp bdWccI"
                 role="button"
               >
                 <a
@@ -155,7 +155,7 @@ it('renders correctly', () => {
                 class="sc-kEjbxe gTxQxW"
               >
                 <div
-                  class="sc-jrAGrp gBnOwk"
+                  class="sc-jrAGrp iOgCIp"
                   role="button"
                 >
                   <svg
@@ -193,7 +193,7 @@ it('renders correctly', () => {
                 />
               </div>
               <div
-                class="sc-jrAGrp gBnOwk"
+                class="sc-jrAGrp iOgCIp"
                 role="button"
               >
                 <a
@@ -231,7 +231,7 @@ it('renders correctly', () => {
                 </a>
               </div>
               <div
-                class="sc-jrAGrp gBnOwk"
+                class="sc-jrAGrp iOgCIp"
                 role="button"
               >
                 <a
@@ -261,7 +261,7 @@ it('renders correctly', () => {
                 </a>
               </div>
               <div
-                class="sc-jrAGrp gBnOwk"
+                class="sc-jrAGrp iOgCIp"
                 role="button"
               >
                 <a
@@ -288,7 +288,7 @@ it('renders correctly', () => {
                 </a>
               </div>
               <div
-                class="sc-jrAGrp gBnOwk"
+                class="sc-jrAGrp iOgCIp"
                 role="button"
               >
                 <a
@@ -316,7 +316,7 @@ it('renders correctly', () => {
                 class="sc-kEjbxe gTxQxW"
               >
                 <div
-                  class="sc-jrAGrp dBKxzB rainbow"
+                  class="sc-jrAGrp bdWccI rainbow"
                   role="button"
                 >
                   <svg
@@ -355,7 +355,7 @@ it('renders correctly', () => {
                 class="sc-kEjbxe gTxQxW"
               >
                 <div
-                  class="sc-jrAGrp gBnOwk"
+                  class="sc-jrAGrp iOgCIp"
                   role="button"
                 >
                   <svg
@@ -399,7 +399,7 @@ it('renders correctly', () => {
                 class="sc-kEjbxe gTxQxW"
               >
                 <div
-                  class="sc-jrAGrp gBnOwk"
+                  class="sc-jrAGrp iOgCIp"
                   role="button"
                 >
                   <svg
@@ -438,7 +438,7 @@ it('renders correctly', () => {
                 class="sc-kEjbxe gTxQxW"
               >
                 <div
-                  class="sc-jrAGrp gBnOwk"
+                  class="sc-jrAGrp iOgCIp"
                   role="button"
                 >
                   <svg
@@ -501,7 +501,7 @@ it('renders correctly', () => {
             body
           </div>
           <div
-            class="sc-dlfnbm sc-gWHgXt cvksJs IZmxf"
+            class="sc-dlfnbm sc-gWHgXt kgrCKx IZmxf"
             role="presentation"
           />
         </div>
