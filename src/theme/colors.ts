@@ -44,7 +44,7 @@ export const lightColors: Colors = {
   borderColor: '#056684',
   card: '#EAF8FF',
   gradients: {
-    bubblegum: 'linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)',
+    bubblegum: `linear-gradient(139.73deg, ${BRIGHT_BLUE} 0%, ${WHITE_BLUE} 100%)`,
   },
 };
 
@@ -67,6 +67,6 @@ export const darkColors: Colors = {
   borderColor: '#056684',
   card: DARK_BLUE,
   gradients: {
-    bubblegum: 'linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)',
+    bubblegum: `linear-gradient(139.73deg, ${DARK_BLUE} 0%, ${DARK_BLUE_SECOND} 100%)`,
   },
 };
