@@ -35,7 +35,7 @@ export const lightColors: Colors = {
   contrast: DARK_BLUE,
   invertedContrast: BRIGHT_BLUE,
   input: WHITE_BLUE,
-  inputSecondary: baseColors.success,
+  inputSecondary: ACCENT_BLUE,
   tertiary: '#EFF4F5',
   text: DARK_BLUE_SECOND,
   textDisabled: '#BDC2C4',
@@ -44,7 +44,7 @@ export const lightColors: Colors = {
   borderColor: '#056684',
   card: '#EAF8FF',
   gradients: {
-    bubblegum: 'linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)',
+    bubblegum: `linear-gradient(139.73deg, ${BRIGHT_BLUE} 0%, ${WHITE_BLUE} 100%)`,
   },
 };
 
@@ -57,7 +57,7 @@ export const darkColors: Colors = {
   contrast: BRIGHT_BLUE,
   invertedContrast: DARK_BLUE,
   input: DARK_MEDIUM_BLUE,
-  inputSecondary: baseColors.success,
+  inputSecondary: DARK_BLUE_SECOND,
   primaryDark: '#0098A1',
   tertiary: '#353547',
   text: BRIGHT_BLUE,
@@ -67,6 +67,6 @@ export const darkColors: Colors = {
   borderColor: '#056684',
   card: DARK_BLUE,
   gradients: {
-    bubblegum: 'linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)',
+    bubblegum: `linear-gradient(139.73deg, ${DARK_BLUE} 0%, ${DARK_BLUE_SECOND} 100%)`,
   },
 };
