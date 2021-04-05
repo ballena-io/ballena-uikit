@@ -22,10 +22,10 @@ const mediaQueries: MediaQueries = {
 
 export const shadows = {
   level1: `0px 2px 12px -8px rgba(19, 31, 44, 0.1), 0px 1px 1px rgba(29, 49, 73, 0.05)`,
-  active: `0px 0px 0px 1px ${baseColors.primary}, 0px 0px 4px 4px rgba(73, 190, 250, 0.4)`,
-  success: `0px 0px 0px 1px ${baseColors.success}, 0px 0px 0px 4px rgba(247, 131, 64, 0.2)`,
-  warning: `0px 0px 0px 1px ${baseColors.warning}, 0px 0px 0px 4px rgba(237, 75, 158, 0.2)`,
-  focus: `0px 0px 0px 1px ${baseColors.primary}, 0px 0px 0px 3px rgba(73, 190, 250, 0.5)`,
+  active: `0px 0px 0px 1px ${baseColors.primary}, 0px 0px 4px 2px rgba(73, 190, 250, 0.4)`,
+  success: `0px 0px 0px 1px ${baseColors.success}, 0px 0px 0px 2px rgba(247, 131, 64, 0.2)`,
+  warning: `0px 0px 0px 1px ${baseColors.warning}, 0px 0px 0px 2px rgba(237, 75, 158, 0.2)`,
+  focus: `0px 0px 0px 1px ${baseColors.primary}, 0px 0px 0px 2px rgba(73, 190, 250, 0.5)`,
   inset: 'inset 0px 2px 2px -1px rgba(102, 102, 143, 0.1)',
 };
 
