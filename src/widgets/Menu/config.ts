@@ -20,7 +20,7 @@ export const links = [
   // },
   {
     label: 'Vaults',
-    icon: 'BalleVaultIcon',
+    icon: 'VaultIcon',
     href: '/farms',
   },
   // {
