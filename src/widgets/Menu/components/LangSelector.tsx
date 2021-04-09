@@ -1,8 +1,9 @@
 import React from 'react';
+
+import Button from '../../../components/Button/Button';
+import Dropdown from '../../../components/Dropdown/Dropdown';
 import { SvgProps } from '../../../components/Svg';
 import Text from '../../../components/Text/Text';
-import Dropdown from '../../../components/Dropdown/Dropdown';
-import Button from '../../../components/Button/Button';
 import * as IconModule from '../icons';
 import { LangType } from '../types';
 import MenuButton from './MenuButton';
@@ -20,7 +21,7 @@ const LangSelector: React.FC<Props> = ({ currentLang, langs, setLang }) => (
   <Dropdown
     position="top-right"
     target={
-      <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
+      <Button scale="md0" variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
         <Text color="textSubtle">{currentLang?.toUpperCase()}</Text>
       </Button>
     }

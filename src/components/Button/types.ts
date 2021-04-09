@@ -4,6 +4,7 @@ import { LayoutProps, SpaceProps } from 'styled-system';
 
 export const scales = {
   MD: 'md',
+  MD0: 'md0',
   SM: 'sm',
   XS: 'xs',
 } as const;
