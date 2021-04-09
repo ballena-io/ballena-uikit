@@ -12,6 +12,7 @@ interface Props {
 const PriceLink = styled.a`
   display: flex;
   align-items: center;
+  margin-right: 16px;
   svg {
     transition: transform 0.3s;
   }
@@ -25,7 +26,7 @@ const PriceLink = styled.a`
 // TODO Add proper Balle Price receiving it as a prop
 const cakePriceUsd = 'Price';
 
-const CakePrice: React.FC<Props> = () => {
+const BallePrice: React.FC<Props> = () => {
   return cakePriceUsd ? (
     <PriceLink
       href="https://bscscan.com/tx/0xa93afa8423564b93e6ce7e61e0c236e128a9bcf1b1d9e139ccfed5c04e3f82c7"
@@ -42,4 +43,4 @@ const CakePrice: React.FC<Props> = () => {
   );
 };
 
-export default React.memo(CakePrice);
+export default React.memo(BallePrice);

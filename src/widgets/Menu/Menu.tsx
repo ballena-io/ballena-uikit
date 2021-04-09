@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Flex from '../../components/Box/Flex';
 import Overlay from '../../components/Overlay/Overlay';
 import { useMatchBreakpoints } from '../../hooks';
-import Avatar from './components/Avatar';
+import BallePrice from './components/BallePrice';
 import Logo from './components/Logo';
 import Panel from './components/Panel';
 import UserBlock from './components/UserBlock';
@@ -72,7 +72,6 @@ const Menu: React.FC<NavProps> = ({
   currentLang,
   cakePriceUsd,
   links,
-  profile,
   children,
 }) => {
   const { isXl } = useMatchBreakpoints();
@@ -91,9 +90,9 @@ const Menu: React.FC<NavProps> = ({
           isDark={isDark}
           href={homeLink?.href ?? '/'}
         />
-        <Flex>
+        <Flex justifyContent="space-between">
+          <BallePrice cakePriceUsd={cakePriceUsd} />
           <UserBlock account={account} login={login} logout={logout} />
-          {profile && <Avatar profile={profile} />}
         </Flex>
       </StyledNav>
       <BodyWrapper>
