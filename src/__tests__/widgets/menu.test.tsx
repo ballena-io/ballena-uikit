@@ -46,10 +46,10 @@ it('renders correctly', () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <div
-        class="sc-bYEvPH cNGsRF"
+        class="sc-ezrdKe hLsexG"
       >
         <nav
-          class="sc-kLgntA dpNHCE"
+          class="sc-bYEvPH ctMtRP"
         >
           <div
             class="sc-bdfBwQ sc-gsTCUz iwJkGQ ckYhbt"
@@ -166,10 +166,10 @@ it('renders correctly', () => {
           </div>
         </nav>
         <div
-          class="sc-iktFzd dABFdo"
+          class="sc-kLgntA lhzNyF"
         >
           <div
-            class="sc-kfzAmx kRrOVp"
+            class="sc-dmlrTW hBteby"
           >
             <div
               class="sc-kstrdz bYqKmK"
@@ -310,7 +310,7 @@ it('renders correctly', () => {
               </div>
             </div>
             <div
-              class="sc-dIUggk hajyYa"
+              class="sc-idOhPF iCAITG"
             >
               <button
                 class="sc-pFZIQ daSZot sc-hBEYos hvfepY"
@@ -331,12 +331,12 @@ it('renders correctly', () => {
             </div>
           </div>
           <div
-            class="sc-jJEJSO eEyHJ"
+            class="sc-iktFzd gupvAs"
           >
             body
           </div>
           <div
-            class="sc-dlfnbm sc-hiSbYr kgrCKx klxusr"
+            class="sc-dlfnbm sc-jJEJSO kgrCKx eSqTXn"
             role="presentation"
           />
         </div>
