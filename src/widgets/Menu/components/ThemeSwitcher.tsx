@@ -19,13 +19,11 @@ const StyledButton = styled(Button)`
 `;
 
 const ThemeSwitcher: React.FC<Props> = ({ isDark, toggleTheme }) => {
+  const themeColor = isDark ? 'primary' : 'primaryDark';
+
   return (
     <StyledButton variant="text" onClick={() => toggleTheme(!isDark)} scale="md0">
-      {isDark ? (
-        <MoonIcon color={isDark ? 'text' : 'textDisabled'} width="24px" />
-      ) : (
-        <SunIcon color={isDark ? 'textDisabled' : 'text'} width="24px" />
-      )}
+      {isDark ? <MoonIcon color={themeColor} width="24px" /> : <SunIcon color={themeColor} width="24px" />}
     </StyledButton>
   );
 };
