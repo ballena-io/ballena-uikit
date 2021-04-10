@@ -1,5 +1,6 @@
 export { default as CloseIcon } from './Close';
 export { default as FarmIcon } from './Farm';
+export { default as GithubIcon } from './Github';
 export { default as GroupsIcon } from './Groups';
 export { default as HamburgerIcon } from './Hamburger';
 export { default as HamburgerCloseIcon } from './HamburgerClose';
@@ -8,6 +9,7 @@ export { default as IfoIcon } from './Ifo';
 export { default as InfoIcon } from './Info';
 export { default as LanguageIcon } from './Language';
 export { default as LogoIcon } from './Logo';
+export { default as MigrationIcon } from './Migration';
 export { default as MoonIcon } from './Moon';
 export { default as MoreIcon } from './More';
 export { default as NftIcon } from './Nft';

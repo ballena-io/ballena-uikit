@@ -11,7 +11,7 @@ export const links = [
   },
   {
     label: 'Migration',
-    icon: 'VaultIcon',
+    icon: 'MigrationIcon',
     href: 'https://ballena.medium.com/',
   },
   {
@@ -29,11 +29,7 @@ export const links = [
     icon: 'VaultIcon',
     href: 'https://vote.ballena.io',
   },
-  {
-    label: 'Github',
-    icon: 'VaultIcon',
-    href: 'https://github.com/ballena-io',
-  },
+
   // {
   //   label: 'Vote',
   //   icon: 'MoreIcon',
@@ -89,6 +85,11 @@ export const links = [
 
 export const socials = [
   {
+    label: 'Github',
+    icon: 'GithubIcon',
+    href: 'https://github.com/ballena-io',
+  },
+  {
     label: 'Telegram',
     icon: 'TelegramIcon',
     items: [
@@ -121,6 +122,7 @@ export const socials = [
 
 export const MENU_HEIGHT = 64;
 export const MENU_ENTRY_HEIGHT = 48;
-export const MENU_ENTRY_FOOTER_HEIGHT = 60;
+export const MENU_ENTRY_SETTINGS_HEIGHT = 72;
+export const MENU_ENTRY_SOCIAL_HEIGHT = 88;
 export const SIDEBAR_WIDTH_FULL = 100;
 export const SIDEBAR_WIDTH_REDUCED = 72;

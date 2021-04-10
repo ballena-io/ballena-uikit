@@ -19,11 +19,10 @@ const SocialLinks: React.FC = () => (
     {socials.map((social) => {
       const Icon = Icons[social.icon];
       const iconProps = { width: '24px', color: 'text', style: { cursor: 'pointer' } };
-      const mr = '4px';
 
       if (social.items) {
         return (
-          <Dropdown key={social.label} position="top-right" target={<Icon {...iconProps} mb={mr} />}>
+          <Dropdown key={social.label} position="top-right" target={<Icon {...iconProps} mb="4px" />}>
             {social.items.map((item) => (
               <Link external key={item.label} href={item.href} aria-label={item.label} color="text">
                 {item.label}
@@ -33,7 +32,7 @@ const SocialLinks: React.FC = () => (
         );
       }
       return (
-        <Link external key={social.label} href={social.href} aria-label={social.label} mr={mr}>
+        <Link external key={social.label} href={social.href} aria-label={social.label} mb="10px">
           <Icon {...iconProps} />
         </Link>
       );
