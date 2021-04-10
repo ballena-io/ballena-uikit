@@ -46,17 +46,17 @@ it('renders correctly', () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <div
-        class="sc-ezrdKe hLsexG"
+        class="sc-kLgntA hmuPEi"
       >
         <nav
-          class="sc-bYEvPH ctMtRP"
+          class="sc-iktFzd XwCfb"
         >
           <div
             class="sc-bdfBwQ sc-gsTCUz iwJkGQ ckYhbt"
           >
             <button
               aria-label="Toggle menu"
-              class="sc-pFZIQ bbzmsw sc-jrAGrp feWWVW"
+              class="sc-pFZIQ bbzmsw sc-jrAGrp bQWwvU"
               scale="md"
             >
               <svg
@@ -77,7 +77,7 @@ it('renders correctly', () => {
               href="/"
             >
               <svg
-                class="sc-gKsewC iGUOBs mobile-icon"
+                class="sc-gKsewC ltlkO mobile-icon"
                 color="text"
                 viewBox="0 0 30 26"
                 width="20px"
@@ -89,7 +89,7 @@ it('renders correctly', () => {
                 />
               </svg>
               <svg
-                class="sc-gKsewC iGUOBs desktop-icon"
+                class="sc-gKsewC ltlkO desktop-icon"
                 color="text"
                 viewBox="0 0 116 26"
                 width="20px"
@@ -111,7 +111,7 @@ it('renders correctly', () => {
               target="_blank"
             >
               <svg
-                class="sc-gKsewC bBefuS"
+                class="sc-gKsewC fHuKHU"
                 color="text"
                 viewBox="0 0 26 26"
                 width="24px"
@@ -166,16 +166,16 @@ it('renders correctly', () => {
           </div>
         </nav>
         <div
-          class="sc-kLgntA lhzNyF"
+          class="sc-jJEJSO hYddnZ"
         >
           <div
-            class="sc-dmlrTW hBteby"
+            class="sc-kfzAmx fBbLDf"
           >
             <div
               class="sc-kstrdz bYqKmK"
             >
               <div
-                class="sc-crrsfI hhvfZD"
+                class="sc-crrsfI jYJVrb"
                 role="button"
               >
                 <a
@@ -184,7 +184,7 @@ it('renders correctly', () => {
                   href="/"
                 >
                   <svg
-                    class="sc-gKsewC bBefuS"
+                    class="sc-gKsewC ltlkO"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -206,26 +206,25 @@ it('renders correctly', () => {
                     />
                     <path
                       d="M24,11.2a.78.78,0,0,0-.25-.6l-.21-.2L12.57.2a.33.33,0,0,0-.1-.06.57.57,0,0,0-.13-.08L12.2,0l-.14,0-.14,0-.15,0-.13.07-.1.07L.46,10.4l-.21.2a.78.78,0,0,0-.25.6H0v0a.43.43,0,0,1,0,0,.13.13,0,0,0,0,.06v0H0a.76.76,0,0,0,.74.6H3.65v9.67A2.32,2.32,0,0,0,5.94,24H18.17a2.31,2.31,0,0,0,2.29-2.33V12h2.76a.78.78,0,0,0,.78-.77v0ZM14,22.45H10.15V16.2a.77.77,0,0,1,.76-.78H13.2a.78.78,0,0,1,.77.78Zm5-.78a.78.78,0,0,1-.77.78H15.5V16.2a2.31,2.31,0,0,0-2.3-2.33H10.91A2.31,2.31,0,0,0,8.62,16.2v6.25H5.94a.77.77,0,0,1-.76-.78V12H18.94ZM2.69,10.45v0l0,0,.51-.47.4-.37,1.5-1.38L5.37,8l6.68-6.16,6.71,6.24.19.18,1.51,1.4.11.1h0l.71.66,0,0,0,0H2.69Z"
-                      fill="#49befa"
                       transform="translate(0)"
                     />
                   </svg>
                   <div
-                    class="sc-iqHYGH hEViZq"
+                    class="sc-iqHYGH jlLnSr"
                   >
                     Home
                   </div>
                 </a>
               </div>
               <div
-                class="sc-crrsfI dQwqIm"
+                class="sc-crrsfI gRZQNm"
                 role="button"
               >
                 <a
                   href="/farms"
                 >
                   <svg
-                    class="sc-gKsewC bBefuS"
+                    class="sc-gKsewC ltlkO"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -243,100 +242,508 @@ it('renders correctly', () => {
                     />
                     <path
                       d="M21.23,0H2.8A2.72,2.72,0,0,0,0,2.86c0,.2,0,.42,0,.61s0,7.67,0,7.91c0,.42,0,.85,0,1.27,0,.21,0,7.71,0,7.91a5.27,5.27,0,0,0,0,1.19A2.7,2.7,0,0,0,2.66,24C4.85,24,7,24,9.24,24h12a2.72,2.72,0,0,0,2.72-2.12,3.63,3.63,0,0,0,.08-.73V2.85A2.72,2.72,0,0,0,21.23,0Zm1,21c0,.85-.32,1.18-1.16,1.18H2.94c-.82,0-1.14-.33-1.14-1.17V3c0-.82.33-1.15,1.13-1.15H21.06c.82,0,1.14.33,1.14,1.17Z"
-                      fill="#59baeb"
                       transform="translate(0 0)"
                     />
                     <path
                       d="M19.59,7.48a.9.9,0,0,0-1,.82v7.38a.91.91,0,0,0,.19.59.89.89,0,0,0,1.59-.59V8.3A.91.91,0,0,0,19.59,7.48Z"
-                      fill="#59baeb"
                       transform="translate(0 0)"
                     />
                     <path
                       d="M16.93,11.35H15.05a5.06,5.06,0,0,0-1-2.42l1.28-1.31a.66.66,0,0,0,0-.92.61.61,0,0,0-.89,0L13.18,8a4.81,4.81,0,0,0-2.35-1V5.17a.64.64,0,0,0-.63-.65.64.64,0,0,0-.63.65V7A4.82,4.82,0,0,0,7.21,8L5.93,6.71a.62.62,0,0,0-.89,0,.66.66,0,0,0,0,.92L6.32,9a5,5,0,0,0-1,2.41H3.54a.65.65,0,0,0-.06,1.29H5.35a5.1,5.1,0,0,0,1,2.42L5.05,16.38a.66.66,0,0,0,0,.92.62.62,0,0,0,.89,0L7.22,16a4.82,4.82,0,0,0,2.36,1v1.85a.63.63,0,1,0,1.25,0V17a4.82,4.82,0,0,0,2.36-1l1.28,1.32a.62.62,0,0,0,.89,0,.66.66,0,0,0,0-.92l-1.28-1.32a5,5,0,0,0,1-2.41h1.81a.65.65,0,0,0,.06-1.29Zm-3.1.65A3.64,3.64,0,1,1,10.2,8.27,3.68,3.68,0,0,1,13.83,12Z"
-                      fill="#59baeb"
                       transform="translate(0 0)"
                     />
                     <path
                       d="M10.2,9.73A2.27,2.27,0,1,0,12.41,12h0A2.24,2.24,0,0,0,10.2,9.73Z"
-                      fill="#59baeb"
                       transform="translate(0 0)"
                     />
                   </svg>
                   <div
-                    class="sc-iqHYGH hEViZq"
+                    class="sc-iqHYGH jlLnSr"
                   >
                     Vaults
                   </div>
                 </a>
               </div>
               <div
-                class="sc-dQppl kVjqMM"
+                class="sc-crrsfI gRZQNm"
+                role="button"
               >
-                <div
-                  class="sc-crrsfI dQwqIm"
-                  role="button"
+                <a
+                  href="https://ballena.medium.com/"
                 >
                   <svg
-                    class="sc-gKsewC bBefuS"
+                    class="sc-gKsewC ltlkO"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M6 10C4.9 10 4 10.9 4 12C4 13.1 4.9 14 6 14C7.1 14 8 13.1 8 12C8 10.9 7.1 10 6 10ZM18 10C16.9 10 16 10.9 16 12C16 13.1 16.9 14 18 14C19.1 14 20 13.1 20 12C20 10.9 19.1 10 18 10ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10Z"
+                      d="M10.15,16.46v5.13c0,1.33-.76,2.41-1.72,2.41H1.74C.78,24,0,22.92,0,21.59V2.41C0,1.08.78,0,1.74,0H8.43c1,0,1.72,1.08,1.72,2.41V7.54c0,.22-.13.4-.28.4H8.92c-.16,0-.29-.18-.29-.4v-5c0-.21-.13-.4-.29-.4H1.85c-.17,0-.3.19-.3.4V21.47c0,.21.13.4.3.4H8.31c.16,0,.29-.19.29-.4v-5c0-.22.13-.4.29-.4h1C10,16.06,10.15,16.24,10.15,16.46Z"
+                    />
+                    <path
+                      d="M14.11,16.06h1c.16,0,.29.18.29.4v5c0,.21.13.4.29.4h6.47c.16,0,.29-.19.29-.4V2.53c0-.21-.13-.4-.29-.4H15.69c-.16,0-.29.19-.29.4v5c0,.22-.13.4-.29.4h-1c-.15,0-.28-.18-.28-.4V2.41c0-1.33.78-2.41,1.74-2.41h6.69C23.22,0,24,1.08,24,2.41V21.59c0,1.33-.78,2.41-1.74,2.41H15.57c-.92,0-1.74-1.08-1.74-2.41V16.46C13.85,16.24,14,16.06,14.11,16.06Z"
+                    />
+                    <path
+                      d="M8,12v2.1c0,.11,0,.15-.1.14H7c-.06,0-.09,0-.09-.11V9.88c0-.1,0-.12.1-.12h.92c.09,0,.12,0,.12.14C8,10.6,8,11.3,8,12Z"
+                    />
+                    <path
+                      d="M6.31,12v2.1c0,.11,0,.13-.1.13-.3,0-.3,0-.3-.37v-4c0-.12,0-.16.13-.15.28,0,.28,0,.28.35Z"
+                    />
+                    <path
+                      d="M8.59,9.78h7.67s.07,0,.07-.11V7.74c0-.09.08-.12.13-.07l3.36,4.22a.12.12,0,0,1,0,.14l-3.2,4.08a.09.09,0,0,1-.14-.08V14.32a.1.1,0,0,0-.08-.1H8.59s-.07,0-.07-.1V9.87a.07.07,0,0,1,.07-.09Z"
                     />
                   </svg>
                   <div
-                    class="sc-iqHYGH hEViZq"
+                    class="sc-iqHYGH jlLnSr"
                   >
-                    More
+                    Migration
                   </div>
+                </a>
+              </div>
+              <div
+                class="sc-crrsfI gRZQNm"
+                role="button"
+              >
+                <a
+                  href="https://docs.ballena.io"
+                >
                   <svg
-                    class="sc-gKsewC iGUOBs"
+                    class="sc-gKsewC ltlkO"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="20px"
+                    width="24px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M8.71005 11.71L11.3001 14.3C11.6901 14.69 12.3201 14.69 12.7101 14.3L15.3001 11.71C15.9301 11.08 15.4801 10 14.5901 10H9.41005C8.52005 10 8.08005 11.08 8.71005 11.71Z"
+                      d="M6.06,13.09V10.9h15.7v2.19Zm0,2.18H17.27v2.18H6.06ZM22.32,0H5.49A1.83,1.83,0,0,0,3.82,1.81V22.18A1.84,1.84,0,0,0,5.68,24H22.13A1.84,1.84,0,0,0,24,22.18V1.81A1.83,1.83,0,0,0,22.32,0Zm-.56,8.72H6.06V6.54h15.7Z"
+                    />
+                    <path
+                      d="M.57.1A.59.59,0,0,0,0,.71V23.25H0a.59.59,0,0,0,.57.62h.7a.6.6,0,0,0,.57-.62h0V.71A.59.59,0,0,0,1.27.1Z"
                     />
                   </svg>
-                </div>
-                <div
-                  class="sc-bqyKva jJwFJZ"
-                />
+                  <div
+                    class="sc-iqHYGH jlLnSr"
+                  >
+                    Docs
+                  </div>
+                </a>
+              </div>
+              <div
+                class="sc-crrsfI gRZQNm"
+                role="button"
+              >
+                <a
+                  href="https://vote.ballena.io"
+                >
+                  <svg
+                    class="sc-gKsewC ltlkO"
+                    color="text"
+                    viewBox="0 0 24 24"
+                    width="24px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.53,8.18C18.76,6.75,17,5.33,15.19,3.9a.68.68,0,0,0-.78-.1c-2.11.88-4.25,1.71-6.36,2.61a9,9,0,0,0-4,3.27,2.23,2.23,0,0,0-.38,1.24,6.49,6.49,0,0,0,.41,1.6.56.56,0,0,0,.38.31c.88,0,1.75,0,2.74,0-.17-.41-.3-.74-.43-1.08-.2-.55-.07-.86.52-1a9.24,9.24,0,0,0,3-1.5c.64-.47,1-.43,1.53.18a6.51,6.51,0,0,0,3,2.13.63.63,0,0,1,.4,1A6.65,6.65,0,0,1,12,15.65c-.75.36-1.48.74-2.2,1.14a4.58,4.58,0,0,0-.92.64,1,1,0,0,0-.32,1.22,1.25,1.25,0,0,0,1.29.68,2.56,2.56,0,0,0,.83-.23c1.17-.56,2.38-1.07,3.49-1.72a25.16,25.16,0,0,0,3.7-2.53c1.89-1.67,2.48-4,2.9-6.27C20.81,8.46,20.65,8.28,20.53,8.18Z"
+                      transform="translate(0)"
+                    />
+                    <path
+                      d="M10.29,20.49a2.49,2.49,0,0,1-3.08-2,2.32,2.32,0,0,1,1.23-2.32c.85-.53,1.76-1,2.65-1.44l1-.53,0-.08H0V24H15.34V18.23c-1.29.63-2.52,1.25-3.77,1.83A5.36,5.36,0,0,1,10.29,20.49Z"
+                      transform="translate(0)"
+                    />
+                    <path
+                      d="M23.75,5.42c-1.34-1-2.7-2.09-4.06-3.13L16.69,0,15,2.08c.29.25.53.48.79.69C17.54,4.19,19.28,5.63,21.09,7a20.69,20.69,0,0,0,2.42,1.35c.2-.92.37-1.64.49-2.37A.73.73,0,0,0,23.75,5.42Z"
+                      transform="translate(0)"
+                    />
+                    <path
+                      d="M8.94,12.83c1.4,0,2.8,0,4.21,0,.18,0,.37-.16.52-.23l-2.83-2.17L8.21,11.81a4.25,4.25,0,0,0,.3.74A.62.62,0,0,0,8.94,12.83Z"
+                      transform="translate(0)"
+                    />
+                  </svg>
+                  <div
+                    class="sc-iqHYGH jlLnSr"
+                  >
+                    Vote
+                  </div>
+                </a>
               </div>
             </div>
             <div
-              class="sc-idOhPF iCAITG"
+              class="sc-dIUggk ggQtLk"
             >
-              <button
-                class="sc-pFZIQ daSZot sc-hBEYos hvfepY"
-                scale="md"
+              <div
+                class="sc-dmlrTW hNsnAn"
               >
-                <svg
-                  class="sc-gKsewC iGUOBs"
-                  color="text"
-                  viewBox="0 0 24 24"
-                  width="20px"
-                  xmlns="http://www.w3.org/2000/svg"
+                <div
+                  class="sc-bkzZxe ePArPG"
                 >
-                  <path
-                    d="M19.43 12.98C19.47 12.66 19.5 12.34 19.5 12C19.5 11.66 19.47 11.34 19.43 11.02L21.54 9.37C21.73 9.22 21.78 8.95 21.66 8.73L19.66 5.27C19.54 5.05 19.27 4.97 19.05 5.05L16.56 6.05C16.04 5.65 15.48 5.32 14.87 5.07L14.49 2.42C14.46 2.18 14.25 2 14 2H9.99996C9.74996 2 9.53996 2.18 9.50996 2.42L9.12996 5.07C8.51996 5.32 7.95996 5.66 7.43996 6.05L4.94996 5.05C4.71996 4.96 4.45996 5.05 4.33996 5.27L2.33996 8.73C2.20996 8.95 2.26996 9.22 2.45996 9.37L4.56996 11.02C4.52996 11.34 4.49996 11.67 4.49996 12C4.49996 12.33 4.52996 12.66 4.56996 12.98L2.45996 14.63C2.26996 14.78 2.21996 15.05 2.33996 15.27L4.33996 18.73C4.45996 18.95 4.72996 19.03 4.94996 18.95L7.43996 17.95C7.95996 18.35 8.51996 18.68 9.12996 18.93L9.50996 21.58C9.53996 21.82 9.74996 22 9.99996 22H14C14.25 22 14.46 21.82 14.49 21.58L14.87 18.93C15.48 18.68 16.04 18.34 16.56 17.95L19.05 18.95C19.28 19.04 19.54 18.95 19.66 18.73L21.66 15.27C21.78 15.05 21.73 14.78 21.54 14.63L19.43 12.98ZM12 15.5C10.07 15.5 8.49996 13.93 8.49996 12C8.49996 10.07 10.07 8.5 12 8.5C13.93 8.5 15.5 10.07 15.5 12C15.5 13.93 13.93 15.5 12 15.5Z"
-                  />
-                </svg>
-              </button>
+                  <a
+                    aria-label="Github"
+                    class="sc-iBPRYJ sc-fFubgz lkIJIa guucnR"
+                    color="primary"
+                    href="https://github.com/ballena-io"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    <svg
+                      class="sc-gKsewC ltlkO"
+                      color="text"
+                      style="cursor: pointer;"
+                      viewBox="0 0 24 24"
+                      width="24px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12,0A12.15,12.15,0,0,0,0,12.3,12.27,12.27,0,0,0,8.2,24c.6.1.83-.26.83-.59s0-1.26,0-2.29c-3,.57-3.8-.75-4-1.45a4.41,4.41,0,0,0-1.23-1.73c-.42-.23-1-.8,0-.82a2.42,2.42,0,0,1,1.84,1.26,2.54,2.54,0,0,0,3.5,1,2.58,2.58,0,0,1,.76-1.65c-2.67-.31-5.46-1.37-5.46-6.07A4.88,4.88,0,0,1,5.61,8.35a4.53,4.53,0,0,1,.12-3.26s1-.32,3.3,1.26a11.18,11.18,0,0,1,6,0c2.3-1.6,3.3-1.26,3.3-1.26a4.53,4.53,0,0,1,.12,3.26,4.8,4.8,0,0,1,1.23,3.31c0,4.72-2.8,5.76-5.47,6.07A3,3,0,0,1,15,20c0,1.64,0,3,0,3.38s.22.71.83.59A12.3,12.3,0,0,0,24,12.3,12.15,12.15,0,0,0,12,0Z"
+                        transform="translate(0 0)"
+                      />
+                    </svg>
+                  </a>
+                  <div
+                    class="sc-fodVxV hBablb"
+                  >
+                    <svg
+                      class="sc-gKsewC zHNoB"
+                      color="text"
+                      style="cursor: pointer;"
+                      viewBox="0 0 24 24"
+                      width="24px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.11,18.41v0h0L4.59,16.17A.3.3,0,0,1,4.46,16V5.65L9.11,8Z"
+                      />
+                      <polygon
+                        points="9.67 13.5 9.67 8.81 13.85 15.58 9.67 13.5"
+                      />
+                      <polygon
+                        points="11.53 10.74 14.73 5.58 19.42 7.91 14.61 15.74 11.53 10.74"
+                      />
+                      <path
+                        d="M19.54,18.41v0h0L15,16.16l4.52-7.35Z"
+                      />
+                    </svg>
+                    <div
+                      class="sc-hBEYos bCUUiU"
+                    >
+                      <a
+                        aria-label="English"
+                        class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
+                        color="text"
+                        href="https://ballena.medium.com"
+                        rel="noreferrer noopener"
+                        target="_blank"
+                      >
+                        English
+                      </a>
+                      <a
+                        aria-label="Español"
+                        class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
+                        color="text"
+                        href="https://ballenaioe.medium.com"
+                        rel="noreferrer noopener"
+                        target="_blank"
+                      >
+                        Español
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-fodVxV hBablb"
+                  >
+                    <svg
+                      class="sc-gKsewC zHNoB"
+                      color="text"
+                      style="cursor: pointer;"
+                      viewBox="0 0 24 24"
+                      width="24px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 3C7.02985 3 3 7.02985 3 11.9904C3 16.9606 7.02985 21 12 21C16.9701 21 21 16.9606 21 11.9904C21 7.02985 16.9701 3 12 3ZM16.4328 8.65139C16.3753 9.48614 14.8305 15.7228 14.8305 15.7228C14.8305 15.7228 14.7345 16.0874 14.3987 16.097C14.2836 16.097 14.1301 16.0874 13.9574 15.9243C13.6023 15.6269 12.7964 15.0512 12.0384 14.5235C12.0096 14.5522 11.9808 14.581 11.9424 14.6098C11.7697 14.7633 11.5107 14.984 11.2324 15.2527C11.1269 15.3486 11.0117 15.4542 10.8966 15.5693L10.887 15.5789C10.8198 15.6461 10.7623 15.694 10.7143 15.7324C10.3401 16.0394 10.3017 15.7804 10.3017 15.6461L10.5032 13.4488V13.4296L10.5128 13.4104C10.5224 13.3817 10.5416 13.3721 10.5416 13.3721C10.5416 13.3721 14.4659 9.87953 14.5714 9.50533C14.581 9.48614 14.5522 9.46695 14.5043 9.48614C14.2452 9.57249 9.72601 12.4318 9.22708 12.7484C9.19829 12.7676 9.11194 12.758 9.11194 12.758L6.91471 12.0384C6.91471 12.0384 6.65565 11.9328 6.742 11.693C6.76119 11.645 6.78998 11.597 6.89552 11.5299C7.38486 11.1844 15.8955 8.12367 15.8955 8.12367C15.8955 8.12367 16.1354 8.04691 16.2793 8.09488C16.3465 8.12367 16.3849 8.15245 16.4232 8.2484C16.4328 8.28678 16.4424 8.36354 16.4424 8.44989C16.4424 8.49787 16.4328 8.55544 16.4328 8.65139Z"
+                      />
+                    </svg>
+                    <div
+                      class="sc-hBEYos bCUUiU"
+                    >
+                      <a
+                        aria-label="English"
+                        class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
+                        color="text"
+                        href="https://t.me/ballenaenglish"
+                        rel="noreferrer noopener"
+                        target="_blank"
+                      >
+                        English
+                      </a>
+                      <a
+                        aria-label="Español"
+                        class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
+                        color="text"
+                        href="https://t.me/ballenaspanish"
+                        rel="noreferrer noopener"
+                        target="_blank"
+                      >
+                        Español
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-fodVxV hBablb"
+                  >
+                    <svg
+                      class="sc-gKsewC zHNoB"
+                      color="text"
+                      style="cursor: pointer;"
+                      viewBox="0 0 24 24"
+                      width="24px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.65854 19C15.4488 19 19.1659 13.2338 19.1659 8.23717C19.1659 8.07728 19.1659 7.91739 19.1561 7.7475C19.878 7.21785 20.5024 6.5483 21 5.78881C20.3366 6.08861 19.6244 6.28847 18.8732 6.38841C19.6341 5.91872 20.2195 5.17921 20.5024 4.28981C19.7902 4.72951 19 5.03931 18.1512 5.20919C17.478 4.45969 16.522 4 15.4585 4C13.4195 4 11.761 5.69887 11.761 7.78747C11.761 8.08728 11.8 8.36709 11.8585 8.6469C8.79512 8.497 6.07317 6.97801 4.24878 4.68954C3.92683 5.25916 3.75122 5.90873 3.75122 6.59827C3.75122 7.90739 4.40488 9.06662 5.39024 9.74617C4.78537 9.72618 4.21951 9.5563 3.72195 9.27648C3.72195 9.28648 3.72195 9.30646 3.72195 9.32645C3.72195 11.1552 5 12.6942 6.67805 13.034C6.36585 13.1239 6.0439 13.1639 5.70244 13.1639C5.46829 13.1639 5.23415 13.1439 5.00976 13.0939C5.47805 14.6029 6.8439 15.6922 8.46341 15.7222C7.19512 16.7415 5.60488 17.3411 3.87805 17.3411C3.58537 17.3411 3.28293 17.3311 3 17.2911C4.62927 18.3704 6.57073 19 8.65854 19Z"
+                      />
+                    </svg>
+                    <div
+                      class="sc-hBEYos bCUUiU"
+                    >
+                      <a
+                        aria-label="English"
+                        class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
+                        color="text"
+                        href="https://twitter.com/ballenaio"
+                        rel="noreferrer noopener"
+                        target="_blank"
+                      >
+                        English
+                      </a>
+                      <a
+                        aria-label="Español"
+                        class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
+                        color="text"
+                        href="https://twitter.com/BallenaioE"
+                        rel="noreferrer noopener"
+                        target="_blank"
+                      >
+                        Español
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="sc-hHftDr cnPTSb"
+              >
+                <div
+                  class="sc-fodVxV hBablb"
+                >
+                  <button
+                    class="sc-pFZIQ lnQbPX"
+                    scale="md0"
+                  >
+                    <div
+                      class="sc-iBPRYJ yGQvr"
+                      color="text"
+                    >
+                      EN
+                    </div>
+                  </button>
+                  <div
+                    class="sc-hBEYos bCUUiU"
+                  >
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English0
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English1
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English2
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English3
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English4
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English5
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English6
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English7
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English8
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English9
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English10
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English11
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English12
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English13
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English14
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English15
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English16
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English17
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English18
+                    </button>
+                    <button
+                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      scale="md"
+                      style="min-height: 32px; height: auto;"
+                    >
+                      English19
+                    </button>
+                  </div>
+                </div>
+                <button
+                  class="sc-pFZIQ lnQbPX sc-idOhPF lgUvgS"
+                  scale="md0"
+                >
+                  <svg
+                    class="sc-gKsewC ltlkO"
+                    color="text"
+                    viewBox="0 0 24 24"
+                    width="24px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.66 4.2L6.05 4.59C6.44 4.97 6.44 5.61 6.05 5.99L6.04 6C5.65 6.39 5.03 6.39 4.64 6L4.25 5.61C3.86 5.23 3.86 4.6 4.25 4.21L4.26 4.2C4.64 3.82 5.27 3.81 5.66 4.2Z"
+                    />
+                    <path
+                      d="M1.99 10.95H3.01C3.56 10.95 4 11.39 4 11.95V11.96C4 12.51 3.56 12.95 3 12.94H1.99C1.44 12.94 1 12.5 1 11.95V11.94C1 11.39 1.44 10.95 1.99 10.95Z"
+                    />
+                    <path
+                      d="M12 1H12.01C12.56 1 13 1.44 13 1.99V2.96C13 3.51 12.56 3.95 12 3.94H11.99C11.44 3.94 11 3.5 11 2.95V1.99C11 1.44 11.44 1 12 1Z"
+                    />
+                    <path
+                      d="M18.34 4.2C18.73 3.82 19.36 3.82 19.75 4.21C20.14 4.6 20.14 5.22 19.75 5.61L19.36 6C18.98 6.39 18.35 6.39 17.96 6L17.95 5.99C17.56 5.61 17.56 4.98 17.95 4.59L18.34 4.2Z"
+                    />
+                    <path
+                      d="M18.33 19.7L17.94 19.31C17.55 18.92 17.55 18.3 17.95 17.9C18.33 17.52 18.96 17.51 19.35 17.9L19.74 18.29C20.13 18.68 20.13 19.31 19.74 19.7C19.35 20.09 18.72 20.09 18.33 19.7Z"
+                    />
+                    <path
+                      d="M20 11.95V11.94C20 11.39 20.44 10.95 20.99 10.95H22C22.55 10.95 22.99 11.39 22.99 11.94V11.95C22.99 12.5 22.55 12.94 22 12.94H20.99C20.44 12.94 20 12.5 20 11.95Z"
+                    />
+                    <path
+                      clip-rule="evenodd"
+                      d="M6 11.95C6 8.64 8.69 5.95 12 5.95C15.31 5.95 18 8.64 18 11.95C18 15.26 15.31 17.95 12 17.95C8.69 17.95 6 15.26 6 11.95ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                      fill-rule="evenodd"
+                    />
+                    <path
+                      d="M12 22.9H11.99C11.44 22.9 11 22.46 11 21.91V20.95C11 20.4 11.44 19.96 11.99 19.96H12C12.55 19.96 12.99 20.4 12.99 20.95V21.91C12.99 22.46 12.55 22.9 12 22.9Z"
+                    />
+                    <path
+                      d="M5.66 19.69C5.27 20.08 4.64 20.08 4.25 19.69C3.86 19.3 3.86 18.68 4.24 18.28L4.63 17.89C5.02 17.5 5.65 17.5 6.04 17.89L6.05 17.9C6.43 18.28 6.44 18.91 6.05 19.3L5.66 19.69Z"
+                    />
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
           <div
-            class="sc-iktFzd gupvAs"
+            class="sc-hiSbYr dNmlwx"
           >
             body
           </div>
           <div
-            class="sc-dlfnbm sc-jJEJSO kgrCKx eSqTXn"
+            class="sc-dlfnbm sc-gWHgXt kgrCKx IZmxf"
             role="presentation"
           />
         </div>
