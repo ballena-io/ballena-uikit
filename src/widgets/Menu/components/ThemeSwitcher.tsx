@@ -18,14 +18,10 @@ const StyledButton = styled(Button)`
   justify-content: left;
 `;
 
-const ThemeSwitcher: React.FC<Props> = ({ isDark, toggleTheme }) => {
-  const themeColor = isDark ? 'primary' : 'primaryDark';
-
-  return (
-    <StyledButton variant="text" onClick={() => toggleTheme(!isDark)} scale="md0">
-      {isDark ? <MoonIcon color={themeColor} width="24px" /> : <SunIcon color={themeColor} width="24px" />}
-    </StyledButton>
-  );
-};
+const ThemeSwitcher: React.FC<Props> = ({ isDark, toggleTheme }) => (
+  <StyledButton variant="text" onClick={() => toggleTheme(!isDark)} scale="md0">
+    {isDark ? <MoonIcon color="text" width="24px" /> : <SunIcon color="text" width="24px" />}
+  </StyledButton>
+);
 
 export default React.memo(ThemeSwitcher, (prev, next) => prev.isDark === next.isDark);

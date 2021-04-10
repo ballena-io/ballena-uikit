@@ -26,7 +26,7 @@ const FooterSection = styled.div`
   padding: 0 12px;
 `;
 
-const PanelFooter: React.FC<Props> = ({ isPushed, pushNav, toggleTheme, isDark, currentLang, langs, setLang }) => {
+const PanelFooter: React.FC<Props> = ({ isPushed, toggleTheme, isDark, currentLang, langs, setLang }) => {
   // if (!isPushed) {
   //   return (
   //     <Container>

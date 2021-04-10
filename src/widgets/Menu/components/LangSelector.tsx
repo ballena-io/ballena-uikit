@@ -17,7 +17,7 @@ const LangSelector: React.FC<Props> = ({ currentLang, langs, setLang }) => (
     position="top-right"
     target={
       <Button scale="md0" variant="text">
-        <Text color="textSubtle">{currentLang?.toUpperCase()}</Text>
+        <Text color="text">{currentLang?.toUpperCase()}</Text>
       </Button>
     }
   >

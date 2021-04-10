@@ -4,6 +4,7 @@ import { Colors } from './types';
 const BRIGHT_BLUE = '#D8F2FE';
 export const ACCENT_BLUE = '#49BEFA';
 const WHITE_BLUE = '#EBF8FF';
+const DARK_BLUE_TEXT = '#1f4575';
 
 // Dark
 const DARK_BLUE = '#121E2C';
@@ -37,7 +38,7 @@ export const lightColors: Colors = {
   input: WHITE_BLUE,
   inputSecondary: ACCENT_BLUE,
   tertiary: '#EFF4F5',
-  text: DARK_BLUE_SECOND,
+  text: DARK_BLUE_TEXT,
   textDisabled: '#BDC2C4',
   textSubtle: DARK_MODE_ACCENT_BLUE,
   toggle: ACCENT_BLUE,
@@ -60,7 +61,7 @@ export const darkColors: Colors = {
   inputSecondary: DARK_BLUE_SECOND,
   primaryDark: '#0098A1',
   tertiary: '#353547',
-  text: BRIGHT_BLUE,
+  text: ACCENT_BLUE,
   textDisabled: '#666171',
   textSubtle: ACCENT_BLUE,
   toggle: DARK_MODE_ACCENT_BLUE,
