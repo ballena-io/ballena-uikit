@@ -133,5 +133,5 @@ export const MENU_HEIGHT = 64;
 export const MENU_ENTRY_HEIGHT = 48;
 export const MENU_ENTRY_SETTINGS_HEIGHT = 72;
 export const MENU_ENTRY_SOCIAL_HEIGHT = 122;
-export const SIDEBAR_WIDTH_FULL = 100;
+export const SIDEBAR_WIDTH_FULL = 80;
 export const SIDEBAR_WIDTH_REDUCED = 72;

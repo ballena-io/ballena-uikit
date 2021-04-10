@@ -12,7 +12,7 @@ interface Props extends PanelProps, PushedProps {
 
 const StyledPanel = styled.div<{ isPushed: boolean }>`
   position: fixed;
-  padding-top: 64px;
+  padding-top: 70px;
   top: 0;
   left: 0;
   display: flex;
