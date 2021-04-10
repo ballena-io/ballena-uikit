@@ -21,7 +21,7 @@ export const links = [
   },
   {
     label: 'Vote',
-    icon: 'VaultIcon',
+    icon: 'VoteIcon',
     href: 'https://vote.ballena.io',
   },
 
