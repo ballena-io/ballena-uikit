@@ -9,15 +9,18 @@ import ThemeSwitcher from './ThemeSwitcher';
 
 interface Props extends PanelProps, PushedProps {}
 
-const Container = styled.div`
+const Container = styled.div<{ isPushed: boolean }>`
   flex: none;
   background-color: ${({ theme }) => theme.nav.background};
   height: 150px;
+  overflow-x: ${({ isPushed }) => (isPushed ? 'visible' : 'hidden')};
 `;
 
 const FooterSection = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   justify-content: space-between;
   height: ${MENU_ENTRY_FOOTER_HEIGHT}px;
   padding: 0 12px;
@@ -35,7 +38,7 @@ const PanelFooter: React.FC<Props> = ({ isPushed, pushNav, toggleTheme, isDark, 
   // }
 
   return (
-    <Container>
+    <Container isPushed={isPushed}>
       <FooterSection>
         <SocialLinks />
       </FooterSection>

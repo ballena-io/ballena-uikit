@@ -10,27 +10,52 @@ export const links = [
     href: '/farms',
   },
   {
-    label: 'More',
-    icon: 'MoreIcon',
-    items: [
-      {
-        label: 'Blog',
-        href: 'https://ballena.medium.com/',
-      },
-      {
-        label: 'Docs',
-        href: 'https://docs.ballena.io',
-      },
-      {
-        label: 'Vote',
-        href: 'https://vote.ballena.io',
-      },
-      {
-        label: 'Github',
-        href: 'https://github.com/ballena-io',
-      },
-    ],
+    label: 'Migration',
+    icon: 'VaultIcon',
+    href: 'https://ballena.medium.com/',
   },
+  {
+    label: 'Docs',
+    icon: 'VaultIcon',
+    href: 'https://docs.ballena.io',
+  },
+  {
+    label: 'Blog',
+    icon: 'VaultIcon',
+    href: 'https://ballena.medium.com/',
+  },
+  {
+    label: 'Vote',
+    icon: 'VaultIcon',
+    href: 'https://vote.ballena.io',
+  },
+  {
+    label: 'Github',
+    icon: 'VaultIcon',
+    href: 'https://github.com/ballena-io',
+  },
+  // {
+  //   label: 'Vote',
+  //   icon: 'MoreIcon',
+  //   items: [
+  // {
+  //   label: 'Blog',
+  //   href: 'https://ballena.medium.com/',
+  // },
+  // {
+  //   label: 'Docs',
+  //   href: 'https://docs.ballena.io',
+  // },
+  //     {
+  //       label: 'Vote',
+  //       href: 'https://vote.ballena.io',
+  //     },
+  //     {
+  //       label: 'Github',
+  //       href: 'https://github.com/ballena-io',
+  //     },
+  //   ],
+  // },
   // {
   //   label: 'Telegram',
   //   icon: 'TelegramIcon',
@@ -97,5 +122,5 @@ export const socials = [
 export const MENU_HEIGHT = 64;
 export const MENU_ENTRY_HEIGHT = 48;
 export const MENU_ENTRY_FOOTER_HEIGHT = 60;
-export const SIDEBAR_WIDTH_FULL = 150;
-export const SIDEBAR_WIDTH_REDUCED = 56;
+export const SIDEBAR_WIDTH_FULL = 100;
+export const SIDEBAR_WIDTH_REDUCED = 72;
