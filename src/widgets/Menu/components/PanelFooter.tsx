@@ -12,7 +12,7 @@ interface Props extends PanelProps, PushedProps {}
 const Container = styled.div<{ isPushed: boolean }>`
   flex: none;
   background-color: ${({ theme }) => theme.nav.background};
-  height: 172px;
+  height: 210px;
   overflow-x: ${({ isPushed }) => (isPushed ? 'visible' : 'hidden')};
 `;
 
