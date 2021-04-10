@@ -7,7 +7,7 @@ it('renders correctly', () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <div
-        class="sc-bdfBwQ gjiBXH"
+        class="sc-bdfBwQ eSxOuB"
         color="text"
       >
         pancake

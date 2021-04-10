@@ -1,12 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
 import { useLocation } from 'react-router-dom';
+import styled from 'styled-components';
+
 import { SvgProps } from '../../../components/Svg';
 import * as IconModule from '../icons';
-import Accordion from './Accordion';
-import { MenuEntry, LinkLabel } from './MenuEntry';
-import MenuLink from './MenuLink';
 import { PanelProps, PushedProps } from '../types';
+import Accordion from './Accordion';
+import { LinkLabel, MenuEntry } from './MenuEntry';
+import MenuLink from './MenuLink';
 
 interface Props extends PanelProps, PushedProps {
   isMobile: boolean;
@@ -32,7 +33,7 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
     <Container>
       {links.map((entry) => {
         const Icon = Icons[entry.icon];
-        const iconElement = <Icon width="24px" mr="8px" />;
+        const iconElement = <Icon width="24px" />;
         const calloutClass = entry.calloutClass ? entry.calloutClass : undefined;
 
         if (entry.items) {

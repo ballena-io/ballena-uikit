@@ -5,6 +5,9 @@ export const scaleVariants = {
     height: '48px',
     padding: '0 24px',
   },
+  [scales.MD0]: {
+    height: '48px',
+  },
   [scales.SM]: {
     height: '32px',
     padding: '0 16px',

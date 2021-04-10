@@ -1,8 +1,8 @@
 import React from 'react';
-import { SvgProps } from '../../../components/Svg';
-import Text from '../../../components/Text/Text';
-import Flex from '../../../components/Box/Flex';
+import styled from 'styled-components';
+
 import Button from '../../../components/Button/Button';
+import { SvgProps } from '../../../components/Svg';
 import * as IconModule from '../icons';
 
 const Icons = (IconModule as unknown) as { [key: string]: React.FC<SvgProps> };
@@ -13,17 +13,15 @@ interface Props {
   toggleTheme: (isDark: boolean) => void;
 }
 
+const StyledButton = styled(Button)`
+  display: flex;
+  justify-content: left;
+`;
+
 const ThemeSwitcher: React.FC<Props> = ({ isDark, toggleTheme }) => (
-  <Button variant="text" onClick={() => toggleTheme(!isDark)}>
-    {/* alignItems center is a Safari fix */}
-    <Flex alignItems="center">
-      <SunIcon color={isDark ? 'textDisabled' : 'text'} width="24px" />
-      <Text color="textDisabled" mx="4px">
-        /
-      </Text>
-      <MoonIcon color={isDark ? 'text' : 'textDisabled'} width="24px" />
-    </Flex>
-  </Button>
+  <StyledButton variant="text" onClick={() => toggleTheme(!isDark)} scale="md0">
+    {isDark ? <MoonIcon color="text" width="24px" /> : <SunIcon color="text" width="24px" />}
+  </StyledButton>
 );
 
 export default React.memo(ThemeSwitcher, (prev, next) => prev.isDark === next.isDark);

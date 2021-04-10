@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import IconButton from '../../../components/Button/IconButton';
-import { CogIcon } from '../../../components/Svg';
-import { MENU_ENTRY_HEIGHT } from '../config';
+import { MENU_ENTRY_SETTINGS_HEIGHT, MENU_ENTRY_SOCIAL_HEIGHT } from '../config';
 import { PanelProps, PushedProps } from '../types';
 import LangSelector from './LangSelector';
 import SocialLinks from './SocialLinks';
@@ -11,49 +9,53 @@ import ThemeSwitcher from './ThemeSwitcher';
 
 interface Props extends PanelProps, PushedProps {}
 
-const Container = styled.div`
+const Container = styled.div<{ isPushed: boolean }>`
   flex: none;
-  padding: 8px 4px;
   background-color: ${({ theme }) => theme.nav.background};
-  border-top: solid 2px rgba(133, 133, 133, 0.1);
+  height: 210px;
+  overflow-x: ${({ isPushed }) => (isPushed ? 'visible' : 'hidden')};
 `;
 
-const SettingsEntry = styled.div`
+const FooterSection = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   justify-content: space-between;
-  height: ${MENU_ENTRY_HEIGHT}px;
-  padding: 0 8px;
+  height: ${MENU_ENTRY_SETTINGS_HEIGHT}px;
+  padding: 0 12px;
 `;
 
-const SocialEntry = styled.div`
+const SocialSection = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   justify-content: space-between;
-  height: ${MENU_ENTRY_HEIGHT}px;
-  padding: 0 16px;
+  height: ${MENU_ENTRY_SOCIAL_HEIGHT}px;
+  padding: 0 12px;
 `;
 
-const PanelFooter: React.FC<Props> = ({ isPushed, pushNav, toggleTheme, isDark, currentLang, langs, setLang }) => {
-  if (!isPushed) {
-    return (
-      <Container>
-        <IconButton variant="text" onClick={() => pushNav(true)}>
-          <CogIcon />
-        </IconButton>
-      </Container>
-    );
-  }
+const PanelFooter: React.FC<Props> = ({ isPushed, toggleTheme, isDark, currentLang, langs, setLang }) => {
+  // if (!isPushed) {
+  //   return (
+  //     <Container>
+  //       <IconButton variant="text" onClick={() => pushNav(true)}>
+  //         <CogIcon />
+  //       </IconButton>
+  //     </Container>
+  //   );
+  // }
 
   return (
-    <Container>
-      <SocialEntry>
+    <Container isPushed={isPushed}>
+      <SocialSection>
         <SocialLinks />
-      </SocialEntry>
-      <SettingsEntry>
-        <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
+      </SocialSection>
+      <FooterSection>
         <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />
-      </SettingsEntry>
+        <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
+      </FooterSection>
     </Container>
   );
 };
