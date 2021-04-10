@@ -16,7 +16,7 @@ export const links = [
   },
   {
     label: 'Docs',
-    icon: 'VaultIcon',
+    icon: 'DocsIcon',
     href: 'https://docs.ballena.io',
   },
   {
