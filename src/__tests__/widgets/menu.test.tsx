@@ -182,6 +182,7 @@ it('renders correctly', () => {
                   aria-current="page"
                   class="active"
                   href="/"
+                  target="_self"
                 >
                   <svg
                     class="sc-gKsewC ltlkO"
@@ -222,6 +223,7 @@ it('renders correctly', () => {
               >
                 <a
                   href="/farms"
+                  target="_self"
                 >
                   <svg
                     class="sc-gKsewC ltlkO"
@@ -270,6 +272,7 @@ it('renders correctly', () => {
               >
                 <a
                   href="https://ballena.medium.com/"
+                  target="_self"
                 >
                   <svg
                     class="sc-gKsewC ltlkO"
@@ -307,6 +310,7 @@ it('renders correctly', () => {
               >
                 <a
                   href="https://docs.ballena.io"
+                  target="_blank"
                 >
                   <svg
                     class="sc-gKsewC ltlkO"
@@ -335,6 +339,7 @@ it('renders correctly', () => {
               >
                 <a
                   href="https://vote.ballena.io"
+                  target="_blank"
                 >
                   <svg
                     class="sc-gKsewC ltlkO"
