@@ -157,7 +157,7 @@ it('renders correctly', () => {
             </a>
             <div>
               <button
-                class="sc-pFZIQ eSzTXS"
+                class="sc-pFZIQ deLYMR"
                 scale="sm"
               >
                 0xbd...c980
