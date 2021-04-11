@@ -25,12 +25,14 @@ export interface NavTheme {
 }
 
 export interface MenuSubEntry {
+  external?: boolean;
   label: string;
   href: string;
   calloutClass?: string;
 }
 
 export interface MenuEntry {
+  external?: boolean;
   label: string;
   icon: string;
   items?: MenuSubEntry[];

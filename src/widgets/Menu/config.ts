@@ -18,11 +18,13 @@ export const links = [
     label: 'Docs',
     icon: 'DocsIcon',
     href: 'https://docs.ballena.io',
+    external: true,
   },
   {
     label: 'Vote',
     icon: 'VoteIcon',
     href: 'https://vote.ballena.io',
+    external: true,
   },
 
   // {
