@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Button from '../../../components/Button/Button';
 import { useWalletModal } from '../../WalletModal';
 import { Login } from '../../WalletModal/types';
@@ -17,7 +18,6 @@ const UserBlock: React.FC<Props> = ({ account, login, logout }) => {
       {account ? (
         <Button
           scale="sm"
-          variant="tertiary"
           onClick={() => {
             onPresentAccountModal();
           }}
