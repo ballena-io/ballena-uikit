@@ -320,10 +320,16 @@ it('renders correctly', () => {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M6.06,13.09V10.9h15.7v2.19Zm0,2.18H17.27v2.18H6.06ZM22.32,0H5.49A1.83,1.83,0,0,0,3.82,1.81V22.18A1.84,1.84,0,0,0,5.68,24H22.13A1.84,1.84,0,0,0,24,22.18V1.81A1.83,1.83,0,0,0,22.32,0Zm-.56,8.72H6.06V6.54h15.7Z"
+                      d="M23.71,5.38,17.51.24A1.13,1.13,0,0,0,16.82,0H1A.91.91,0,0,0,0,.81V23.19A.91.91,0,0,0,1,24H23a.91.91,0,0,0,1-.81V6A.73.73,0,0,0,23.71,5.38ZM17.79,2.76l2.88,2.38H17.79ZM2,22.38V1.62H15.84V6a.91.91,0,0,0,1,.81h5.23V22.38Z"
                     />
                     <path
-                      d="M.57.1A.59.59,0,0,0,0,.71V23.25H0a.59.59,0,0,0,.57.62h.7a.6.6,0,0,0,.57-.62h0V.71A.59.59,0,0,0,1.27.1Z"
+                      d="M18,8.89H6a.6.6,0,0,0-.65.54A.6.6,0,0,0,6,10H18a.6.6,0,0,0,.65-.54A.6.6,0,0,0,18,8.89Z"
+                    />
+                    <path
+                      d="M18,11.48H6a.6.6,0,0,0-.65.53.6.6,0,0,0,.65.54H18a.6.6,0,0,0,.65-.54A.6.6,0,0,0,18,11.48Z"
+                    />
+                    <path
+                      d="M18,14.06H6a.55.55,0,1,0,0,1.08H18a.55.55,0,1,0,0-1.08Z"
                     />
                   </svg>
                   <div
@@ -392,7 +398,7 @@ it('renders correctly', () => {
                   >
                     <svg
                       class="sc-gKsewC ltlkO"
-                      color="text"
+                      color="icon"
                       style="cursor: pointer;"
                       viewBox="0 0 24 24"
                       width="24px"
@@ -409,7 +415,7 @@ it('renders correctly', () => {
                   >
                     <svg
                       class="sc-gKsewC zHNoB"
-                      color="text"
+                      color="icon"
                       style="cursor: pointer;"
                       viewBox="0 0 24 24"
                       width="24px"
@@ -429,12 +435,12 @@ it('renders correctly', () => {
                       />
                     </svg>
                     <div
-                      class="sc-hBEYos bCUUiU"
+                      class="sc-hBEYos jBqCvC"
                     >
                       <a
                         aria-label="English"
                         class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
-                        color="text"
+                        color="icon"
                         href="https://ballena.medium.com"
                         rel="noreferrer noopener"
                         target="_blank"
@@ -444,7 +450,7 @@ it('renders correctly', () => {
                       <a
                         aria-label="Español"
                         class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
-                        color="text"
+                        color="icon"
                         href="https://ballenaioe.medium.com"
                         rel="noreferrer noopener"
                         target="_blank"
@@ -458,7 +464,7 @@ it('renders correctly', () => {
                   >
                     <svg
                       class="sc-gKsewC zHNoB"
-                      color="text"
+                      color="icon"
                       style="cursor: pointer;"
                       viewBox="0 0 24 24"
                       width="24px"
@@ -469,12 +475,12 @@ it('renders correctly', () => {
                       />
                     </svg>
                     <div
-                      class="sc-hBEYos bCUUiU"
+                      class="sc-hBEYos jBqCvC"
                     >
                       <a
                         aria-label="English"
                         class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
-                        color="text"
+                        color="icon"
                         href="https://t.me/ballenaenglish"
                         rel="noreferrer noopener"
                         target="_blank"
@@ -484,7 +490,7 @@ it('renders correctly', () => {
                       <a
                         aria-label="Español"
                         class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
-                        color="text"
+                        color="icon"
                         href="https://t.me/ballenaspanish"
                         rel="noreferrer noopener"
                         target="_blank"
@@ -498,7 +504,7 @@ it('renders correctly', () => {
                   >
                     <svg
                       class="sc-gKsewC zHNoB"
-                      color="text"
+                      color="icon"
                       style="cursor: pointer;"
                       viewBox="0 0 24 24"
                       width="24px"
@@ -509,12 +515,12 @@ it('renders correctly', () => {
                       />
                     </svg>
                     <div
-                      class="sc-hBEYos bCUUiU"
+                      class="sc-hBEYos jBqCvC"
                     >
                       <a
                         aria-label="English"
                         class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
-                        color="text"
+                        color="icon"
                         href="https://twitter.com/ballenaio"
                         rel="noreferrer noopener"
                         target="_blank"
@@ -524,7 +530,7 @@ it('renders correctly', () => {
                       <a
                         aria-label="Español"
                         class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
-                        color="text"
+                        color="icon"
                         href="https://twitter.com/BallenaioE"
                         rel="noreferrer noopener"
                         target="_blank"
@@ -547,13 +553,13 @@ it('renders correctly', () => {
                   >
                     <div
                       class="sc-iBPRYJ yGQvr"
-                      color="text"
+                      color="icon"
                     >
                       EN
                     </div>
                   </button>
                   <div
-                    class="sc-hBEYos bCUUiU"
+                    class="sc-hBEYos jBqCvC"
                   >
                     <button
                       class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
@@ -703,7 +709,7 @@ it('renders correctly', () => {
                 >
                   <svg
                     class="sc-gKsewC ltlkO"
-                    color="text"
+                    color="icon"
                     viewBox="0 0 24 24"
                     width="24px"
                     xmlns="http://www.w3.org/2000/svg"
