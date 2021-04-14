@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { ACCENT_BLUE_BORDER } from '../../theme/colors';
 import { DropdownProps, Position, PositionProps } from './types';
 
 const getLeft = ({ position }: PositionProps) => {
@@ -33,6 +34,7 @@ const DropdownContent = styled.div<{ position: Position }>`
   overflow-y: auto;
   z-index: ${({ theme }) => theme.zIndices.dropdown};
   border-radius: ${({ theme }) => theme.radii.small};
+  border: ${ACCENT_BLUE_BORDER};
 `;
 
 const Container = styled.div`
