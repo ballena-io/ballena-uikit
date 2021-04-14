@@ -36,28 +36,16 @@ const SocialSection = styled.div`
   padding: 0 12px;
 `;
 
-const PanelFooter: React.FC<Props> = ({ isPushed, toggleTheme, isDark, currentLang, langs, setLang }) => {
-  // if (!isPushed) {
-  //   return (
-  //     <Container>
-  //       <IconButton variant="text" onClick={() => pushNav(true)}>
-  //         <CogIcon />
-  //       </IconButton>
-  //     </Container>
-  //   );
-  // }
-
-  return (
-    <Container isPushed={isPushed}>
-      <SocialSection>
-        <SocialLinks />
-      </SocialSection>
-      <FooterSection>
-        <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />
-        <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
-      </FooterSection>
-    </Container>
-  );
-};
+const PanelFooter: React.FC<Props> = ({ isPushed, toggleTheme, isDark, currentLang, langs, setLang }) => (
+  <Container isPushed={isPushed}>
+    <SocialSection>
+      <SocialLinks />
+    </SocialSection>
+    <FooterSection>
+      <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />
+      <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
+    </FooterSection>
+  </Container>
+);
 
 export default PanelFooter;

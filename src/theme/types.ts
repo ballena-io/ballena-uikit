@@ -32,6 +32,7 @@ export type Gradients = {
 };
 
 export type Colors = {
+  icon: string;
   primary: string;
   primaryBright: string;
   primaryDark: string;
