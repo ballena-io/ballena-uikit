@@ -12,27 +12,34 @@ interface Props {
   setLang: (lang: LangType) => void;
 }
 
-const LangSelector: React.FC<Props> = ({ currentLang, langs, setLang }) => (
-  <Dropdown
-    position="top-right"
-    target={
-      <Button scale="md0" variant="text">
-        <Text color="text">{currentLang?.toUpperCase()}</Text>
-      </Button>
-    }
-  >
-    {langs.map((lang) => (
-      <MenuButton
-        key={lang.code}
-        fullWidth
-        onClick={() => setLang(lang)}
-        // Safari fix
-        style={{ minHeight: '32px', height: 'auto' }}
-      >
-        {lang.language}
-      </MenuButton>
-    ))}
-  </Dropdown>
-);
+const SPANISH_LANG_CODE = 'es-ES';
+const SPANISH_LANG_TEXT = 'ES';
+
+const LangSelector: React.FC<Props> = ({ currentLang, langs, setLang }) => {
+  const buttonText = currentLang === SPANISH_LANG_CODE ? SPANISH_LANG_TEXT : currentLang;
+
+  return (
+    <Dropdown
+      position="top-right"
+      target={
+        <Button scale="md0" variant="text">
+          <Text color="text">{buttonText?.toUpperCase()}</Text>
+        </Button>
+      }
+    >
+      {langs.map((lang) => (
+        <MenuButton
+          key={lang.code}
+          fullWidth
+          onClick={() => setLang(lang)}
+          // Safari fix
+          style={{ minHeight: '32px', height: 'auto' }}
+        >
+          {lang.language}
+        </MenuButton>
+      ))}
+    </Dropdown>
+  );
+};
 
 export default React.memo(LangSelector, (prev, next) => prev.currentLang === next.currentLang);
