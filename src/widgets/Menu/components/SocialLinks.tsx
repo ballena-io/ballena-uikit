@@ -18,13 +18,13 @@ const SocialLinks: React.FC = () => (
   <SocialSection>
     {socials.map((social) => {
       const Icon = Icons[social.icon];
-      const iconProps = { width: '24px', color: 'text', style: { cursor: 'pointer' } };
+      const iconProps = { width: '24px', color: 'icon', style: { cursor: 'pointer' } };
 
       if (social.items) {
         return (
           <Dropdown key={social.label} position="top-right" target={<Icon {...iconProps} mb="6px" />}>
             {social.items.map((item) => (
-              <Link external key={item.label} href={item.href} aria-label={item.label} color="text">
+              <Link external key={item.label} href={item.href} aria-label={item.label} color="icon">
                 {item.label}
               </Link>
             ))}

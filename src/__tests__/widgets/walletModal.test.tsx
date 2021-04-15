@@ -49,7 +49,7 @@ it('renders ConnectModal correctly', () => {
             class="sc-jSgupP bUJFqn"
             id="wallet-connect-metamask"
             scale="md"
-            style="justify-content: space-between;"
+            style="border: 1px solid #49befa; justify-content: space-between;"
             width="100%"
           >
             <div
@@ -193,7 +193,7 @@ it('renders ConnectModal correctly', () => {
             class="sc-jSgupP bUJFqn"
             id="wallet-connect-trustwallet"
             scale="md"
-            style="justify-content: space-between;"
+            style="border: 1px solid #49befa; justify-content: space-between;"
             width="100%"
           >
             <div
@@ -238,7 +238,7 @@ it('renders ConnectModal correctly', () => {
             class="sc-jSgupP bUJFqn"
             id="wallet-connect-mathwallet"
             scale="md"
-            style="justify-content: space-between;"
+            style="border: 1px solid #49befa; justify-content: space-between;"
             width="100%"
           >
             <div
@@ -272,7 +272,7 @@ it('renders ConnectModal correctly', () => {
             class="sc-jSgupP bUJFqn"
             id="wallet-connect-tokenpocket"
             scale="md"
-            style="justify-content: space-between;"
+            style="border: 1px solid #49befa; justify-content: space-between;"
             width="100%"
           >
             <div
@@ -308,7 +308,7 @@ it('renders ConnectModal correctly', () => {
             class="sc-jSgupP bUJFqn"
             id="wallet-connect-walletconnect"
             scale="md"
-            style="justify-content: space-between;"
+            style="border: 1px solid #49befa; justify-content: space-between;"
             width="100%"
           >
             <div
@@ -338,7 +338,7 @@ it('renders ConnectModal correctly', () => {
             class="sc-jSgupP bUJFqn"
             id="wallet-connect-binance chain wallet"
             scale="md"
-            style="justify-content: space-between;"
+            style="border: 1px solid #49befa; justify-content: space-between;"
             width="100%"
           >
             <div
@@ -404,7 +404,7 @@ it('renders ConnectModal correctly', () => {
             class="sc-jSgupP lePauT"
             id="wallet-connect-safepal wallet"
             scale="md"
-            style="justify-content: space-between;"
+            style="border: 1px solid #49befa; justify-content: space-between;"
             width="100%"
           >
             <div

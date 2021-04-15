@@ -1,9 +1,11 @@
 import React from 'react';
+
 import Button from '../../components/Button/Button';
 import Text from '../../components/Text/Text';
 import { connectorLocalStorageKey } from './config';
-import { Login, Config } from './types';
+import { Config, Login } from './types';
 
+const ACCENT_BLUE = '#49BEFA';
 interface Props {
   walletConfig: Config;
   login: Login;
@@ -22,7 +24,7 @@ const WalletCard: React.FC<Props> = ({ login, walletConfig, onDismiss, mb }) => 
         window.localStorage.setItem(connectorLocalStorageKey, walletConfig.connectorId);
         onDismiss();
       }}
-      style={{ justifyContent: 'space-between' }}
+      style={{ border: `1px solid ${ACCENT_BLUE}`, justifyContent: 'space-between' }}
       mb={mb}
       id={`wallet-connect-${title.toLocaleLowerCase()}`}
     >
