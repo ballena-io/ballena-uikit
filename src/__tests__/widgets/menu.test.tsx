@@ -1,8 +1,9 @@
-import React from 'react';
 import noop from 'lodash/noop';
+import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
+
 import { renderWithTheme } from '../../testHelpers';
-import { Menu, menuConfig, LangType } from '../../widgets/Menu';
+import { LangType, Menu, menuConfig } from '../../widgets/Menu';
 
 /**
  * @see https://jestjs.io/docs/en/manual-mocks
@@ -35,7 +36,7 @@ it('renders correctly', () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        cakePriceUsd={0.23158668932877668}
+        ballePriceUsd={0.23158668932877668}
         links={menuConfig}
       >
         body
@@ -107,7 +108,7 @@ it('renders correctly', () => {
           >
             <a
               class="sc-fubCfw kAsmGF"
-              href="https://bscscan.com/tx/0xa93afa8423564b93e6ce7e61e0c236e128a9bcf1b1d9e139ccfed5c04e3f82c7"
+              href=""
               target="_blank"
             >
               <svg
@@ -152,7 +153,7 @@ it('renders correctly', () => {
                 class="sc-iBPRYJ bcFJuZ"
                 color="textSubtle"
               >
-                Price
+                $0.232
               </div>
             </a>
             <div>
