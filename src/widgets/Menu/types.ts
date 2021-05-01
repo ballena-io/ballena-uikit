@@ -44,7 +44,6 @@ export interface MenuEntry {
 export interface PanelProps {
   isDark: boolean;
   toggleTheme: (isDark: boolean) => void;
-  cakePriceUsd?: number;
   currentLang: string;
   langs: LangType[];
   setLang: (lang: LangType) => void;
@@ -53,6 +52,7 @@ export interface PanelProps {
 
 export interface NavProps extends PanelProps {
   account?: string;
+  ballePriceUsd?: number;
   login: Login;
   profile?: Profile;
   logout: () => void;
