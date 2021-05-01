@@ -70,7 +70,7 @@ const Menu: React.FC<NavProps> = ({
   langs,
   setLang,
   currentLang,
-  cakePriceUsd,
+  ballePriceUsd,
   links,
   children,
 }) => {
@@ -91,7 +91,7 @@ const Menu: React.FC<NavProps> = ({
           href={homeLink?.href ?? '/'}
         />
         <Flex justifyContent="space-between">
-          <BallePrice cakePriceUsd={cakePriceUsd} />
+          <BallePrice ballePriceUsd={ballePriceUsd} />
           <UserBlock account={account} login={login} logout={logout} />
         </Flex>
       </StyledNav>
@@ -104,7 +104,6 @@ const Menu: React.FC<NavProps> = ({
           langs={langs}
           setLang={setLang}
           currentLang={currentLang}
-          cakePriceUsd={cakePriceUsd}
           pushNav={setIsPushed}
           links={links}
         />

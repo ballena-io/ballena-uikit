@@ -1,13 +1,14 @@
-import React, { useEffect, useState } from 'react';
 import noop from 'lodash/noop';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter, MemoryRouter } from 'react-router-dom';
+
 import Flex from '../../components/Box/Flex';
 import Heading from '../../components/Heading/Heading';
 import Text from '../../components/Text/Text';
 import { MenuEntry } from './components/MenuEntry';
+import { links } from './config';
 import Menu from './Menu';
 import { LangType } from './types';
-import { links } from './config';
 
 export default {
   title: 'Widgets/Menu',
@@ -28,7 +29,7 @@ const useProps = () => {
     langs,
     setLang: noop,
     currentLang: 'EN',
-    cakePriceUsd: 0.023158668932877668,
+    ballePriceUsd: 0.023158668932877668,
     links,
     profile: null,
   });
@@ -44,7 +45,7 @@ const useProps = () => {
         langs,
         setLang: noop,
         currentLang: 'EN',
-        cakePriceUsd: 0.023158668932877668,
+        ballePriceUsd: 0.023158668932877668,
         links,
         profile: null,
       });
@@ -128,7 +129,7 @@ export const WithNoProfile: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        cakePriceUsd={0.23158668932877668}
+        ballePriceUsd={0.23158668932877668}
         links={links}
         profile={{
           profileLink: '/profile',
@@ -170,7 +171,7 @@ export const WithProfile: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        cakePriceUsd={0.23158668932877668}
+        ballePriceUsd={0.23158668932877668}
         links={links}
         profile={{
           username: 'pancakeswap',
@@ -224,7 +225,7 @@ export const WithSubmenuSelected: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        cakePriceUsd={0.23158668932877668}
+        ballePriceUsd={0.23158668932877668}
         links={links}
         profile={{
           username: 'pancakeswap',
