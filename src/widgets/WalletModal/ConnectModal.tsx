@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+
 import { Link } from '../../components/Link';
 import { HelpIcon } from '../../components/Svg';
 import { Modal } from '../Modal';
-import WalletCard from './WalletCard';
 import config from './config';
 import { Login } from './types';
+import WalletCard from './WalletCard';
 
 interface Props {
   login: Login;
@@ -30,10 +31,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
         mb={index < config.length - 1 ? '8px' : '0'}
       />
     ))}
-    <HelpLink
-      href="https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain"
-      external
-    >
+    <HelpLink href="https://docs.ballena.io/v/en/tutorials-and-tools/tutorials/pc/set-up-metamask-wallet" external>
       <HelpIcon color="primary" mr="6px" />
       Learn how to connect
     </HelpLink>
