@@ -435,7 +435,7 @@ it('renders ConnectModal correctly', () => {
           <a
             class="sc-bdfBwQ sc-gsTCUz gFoRzS djpNeP sc-crrsfI dwTIxE"
             color="primary"
-            href="https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain"
+            href="https://docs.ballena.io/v/en/tutorials-and-tools/tutorials/pc/set-up-metamask-wallet"
             rel="noreferrer noopener"
             target="_blank"
           >
