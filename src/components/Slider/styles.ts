@@ -1,100 +1,104 @@
 import { InputHTMLAttributes } from 'react';
 import styled from 'styled-components';
-import { Box } from '../Box';
-import bunnyHeadMain from './svg/bunnyhead-main.svg';
-import bunnyHeadMax from './svg/bunnyhead-max.svg';
 
-export const SliderContainer = styled(Box)`
-  position: relative;
-  height: 48px;
-`;
+import Text from '../Text/Text';
+import balleHeadMain from './svg/balleHeadMain.svg';
+import balleHeadMax from './svg/balleHeadMax.svg';
+import balleTail from './svg/balleTail.svg';
 
 interface SliderLabelProps {
-  progress: number;
+  progress: string;
 }
-export const SliderLabel = styled.label<SliderLabelProps>`
-  position: absolute;
-  bottom: 0;
-  margin-left: 16px; // offset the bunny butt width
-  left: calc(${({ progress }) => progress}%);
-`;
-
-export const BunnyButt = styled.img`
-  position: absolute;
-`;
-
-export const BunnySlider = styled.div`
-  position: absolute;
-  left: 14px;
-  width: 100%;
-`;
 
 interface StyledInputProps extends InputHTMLAttributes<HTMLInputElement> {
-  isCurrentValueMaxValue: boolean;
+  isMax: boolean;
 }
 
+interface DisabledProp {
+  disabled?: boolean;
+}
+
+const getCursorStyle = ({ disabled = false }: DisabledProp) => {
+  return disabled ? 'not-allowed' : 'cursor';
+};
+
+const getBaseThumbStyles = ({ isMax, disabled }: StyledInputProps) => `
+  -webkit-appearance: none;
+  background-image: url(${isMax ? balleHeadMax : balleHeadMain});
+  cursor: ${getCursorStyle};
+  width: 32px;
+  height: 30.5px;
+  filter: ${disabled ? 'grayscale(100%)' : 'none'};
+  transform: translate(-2px, -2px);
+  transition: 200ms transform;
+  &:hover {
+    transform: ${disabled ? 'scale(1) translate(-2px, -2px)' : 'scale(1.05) translate(-2px, -2px)'};
+  }
+`;
+
+export const SliderLabelContainer = styled.div`
+  bottom: 0;
+  position: absolute;
+  left: 14px;
+  width: calc(100% - 30px);
+`;
+
+export const SliderLabel = styled(Text)<SliderLabelProps>`
+  bottom: 0;
+  font-size: 12px;
+  left: ${({ progress }) => progress};
+  position: absolute;
+  text-align: center;
+  min-width: 24px; // Slider thumb size
+`;
+
+export const BalleTail = styled.div<DisabledProp>`
+  background: url(${balleTail}) no-repeat;
+  height: 36px;
+  filter: ${({ disabled }) => (disabled ? 'grayscale(100%)' : 'none')};
+  position: absolute;
+  width: 25px;
+  top: -8px;
+  left: -4.8px;
+`;
+
+export const BalleSlider = styled.div`
+  position: absolute;
+  left: 14px;
+  width: calc(100% - 14px);
+`;
+
 export const StyledInput = styled.input<StyledInputProps>`
+  cursor: ${getCursorStyle};
   height: 32px;
   position: relative;
-  cursor: pointer;
-
   ::-webkit-slider-thumb {
     -webkit-appearance: none;
-    background-image: url(${({ isCurrentValueMaxValue }) => (isCurrentValueMaxValue ? bunnyHeadMax : bunnyHeadMain)});
-    width: 24px;
-    height: 32px;
-    cursor: pointer;
-    transform: translate(-2px, -2px);
-    transition: 0.1s all;
-
-    :hover {
-      transform: scale(1.1) translate(-3px, -3px);
-    }
+    ${getBaseThumbStyles}
   }
   ::-moz-range-thumb {
-    -webkit-appearance: none;
-    background-image: url(${({ isCurrentValueMaxValue }) => (isCurrentValueMaxValue ? bunnyHeadMax : bunnyHeadMain)});
-    width: 24px;
-    height: 32px;
-    cursor: pointer;
-    transition: 0.1s all;
-    transform: translate(-2px, -2px);
-    // custom moz reset
+    ${getBaseThumbStyles}
     background-color: transparent;
     border: 0;
-
-    :hover {
-      transform: scale(1.1) translate(-3px, -3px);
-    }
   }
   ::-ms-thumb {
-    -webkit-appearance: none;
-    background-image: url(${({ isCurrentValueMaxValue }) => (isCurrentValueMaxValue ? bunnyHeadMax : bunnyHeadMain)});
-    width: 24px;
-    height: 32px;
-    cursor: pointer;
-    transform: translate(-2px, -2px);
-    transition: 0.1s all;
-
-    :hover {
-      transform: scale(1.1) translate(-3px, -3px);
-    }
+    ${getBaseThumbStyles}
   }
 `;
 
-export const BarBackground = styled.div`
-  position: absolute;
-  width: 100%;
+export const BarBackground = styled.div<DisabledProp>`
+  background-color: ${({ theme, disabled }) => theme.colors[disabled ? 'textDisabled' : 'inputSecondary']};
   height: 2px;
+  position: absolute;
   top: 18px;
-  background-color: ${({ theme }) => theme.colors.inputSecondary};
+  width: 100%;
 `;
 
-export const BarProgress = styled.div<{ progress: number; isCurrentValueMaxValue: boolean }>`
+// original height: 10 top 18px // 15 y 13 luego
+export const BarProgress = styled.div<DisabledProp>`
+  background-color: ${({ theme }) => theme.colors.primary};
+  filter: ${({ disabled }) => (disabled ? 'grayscale(100%)' : 'none')};
+  height: 14.77px;
   position: absolute;
-  width: ${({ progress, isCurrentValueMaxValue }) => (isCurrentValueMaxValue ? 'calc(100% - 16px)' : `${progress}%`)};
-  height: 10px;
-  top: 18px;
-
-  background: ${({ theme }) => theme.colors.primary};
+  top: 13px;
 `;
