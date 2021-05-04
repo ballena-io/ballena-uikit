@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
 import { sample } from 'lodash';
+import React, { useState } from 'react';
+
 import { alertVariants } from '../../components/Alert';
 import Button from '../../components/Button/Button';
 import ToastContainer from './ToastContainer';
@@ -58,7 +59,7 @@ export const WithAction: React.FC = () => {
       description: 'A description of a toast with a call to action',
       action: {
         text: 'Action Button',
-        url: 'https://pancakeswap.finance',
+        url: 'https://ballena.io',
       },
       type: alertVariants[sample(Object.keys(alertVariants))],
     };
