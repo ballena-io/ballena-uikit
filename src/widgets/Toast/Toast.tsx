@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 import { Alert, alertVariants } from '../../components/Alert';
 import LinkExternal from '../../components/Link/LinkExternal';
+import { Text } from '../../components/Text';
 import { ToastProps, types } from './types';
 
 const alertTypeMap = {
@@ -68,7 +69,7 @@ const Toast: React.FC<ToastProps> = ({ toast, onRemove, style, ttl, ...props }) 
     <CSSTransition nodeRef={ref} timeout={250} style={style} {...props}>
       <StyledToast ref={ref} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <Alert title={title} variant={alertTypeMap[type]} onClick={handleRemove}>
-          {description}
+          <Text>{description}</Text>
           {action && (
             <StyledLink small href={action.url} mr="16px">
               {action.text}
