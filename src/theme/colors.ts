@@ -20,8 +20,8 @@ export const baseColors = {
   primaryBright: WHITE_BLUE,
   primaryDark: DARK_BLUE,
   secondary: '#045077',
-  success: '#f78340',
-  warning: '#a76f8b',
+  success: '#4BB543',
+  warning: '#F78340',
 };
 
 export const brandColors = {
