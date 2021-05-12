@@ -47,21 +47,21 @@ it('renders correctly', () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <div
-        class="sc-kLgntA hmuPEi"
+        class="sc-jJEJSO jPLnEW"
       >
         <nav
-          class="sc-iktFzd XwCfb"
+          class="sc-hiSbYr iMHNYy"
         >
           <div
             class="sc-bdfBwQ sc-gsTCUz iwJkGQ ckYhbt"
           >
             <button
               aria-label="Toggle menu"
-              class="sc-pFZIQ bbzmsw sc-jrAGrp bQWwvU"
+              class="sc-kEjbxe gSpWKH sc-iqHYGH gOUsNC"
               scale="md"
             >
               <svg
-                class="sc-gKsewC kIBFDq"
+                class="sc-fubCfw jNjWDf"
                 color="textSubtle"
                 viewBox="0 0 24 24"
                 width="24px"
@@ -74,11 +74,11 @@ it('renders correctly', () => {
             </button>
             <a
               aria-label="ballena.io home page"
-              class="sc-kEjbxe hTKwD"
+              class="sc-crrsfI blBAFL"
               href="/"
             >
               <svg
-                class="sc-gKsewC ltlkO mobile-icon"
+                class="sc-fubCfw bxnML mobile-icon"
                 color="text"
                 viewBox="0 0 30 26"
                 width="20px"
@@ -90,7 +90,7 @@ it('renders correctly', () => {
                 />
               </svg>
               <svg
-                class="sc-gKsewC ltlkO desktop-icon"
+                class="sc-fubCfw bxnML desktop-icon"
                 color="text"
                 viewBox="0 0 116 26"
                 width="20px"
@@ -107,12 +107,12 @@ it('renders correctly', () => {
             class="sc-bdfBwQ sc-gsTCUz iwJkGQ cShFkN"
           >
             <a
-              class="sc-fubCfw kAsmGF"
+              class="sc-jrAGrp hKMsia"
               href=""
               target="_blank"
             >
               <svg
-                class="sc-gKsewC fHuKHU"
+                class="sc-fubCfw lePvUh"
                 color="text"
                 viewBox="0 0 26 26"
                 width="24px"
@@ -150,7 +150,7 @@ it('renders correctly', () => {
                 />
               </svg>
               <div
-                class="sc-iBPRYJ bcFJuZ"
+                class="sc-pFZIQ kLrxOT"
                 color="textSubtle"
               >
                 $0.232
@@ -158,7 +158,7 @@ it('renders correctly', () => {
             </a>
             <div>
               <button
-                class="sc-pFZIQ deLYMR"
+                class="sc-kEjbxe gjhA-DO"
                 scale="sm"
               >
                 0xbd...c980
@@ -167,16 +167,16 @@ it('renders correctly', () => {
           </div>
         </nav>
         <div
-          class="sc-jJEJSO hYddnZ"
+          class="sc-gWHgXt gKIFCh"
         >
           <div
-            class="sc-kfzAmx fBbLDf"
+            class="sc-bBXqnf kxrZfN"
           >
             <div
-              class="sc-kstrdz bYqKmK"
+              class="sc-fodVxV jbZrFL"
             >
               <div
-                class="sc-crrsfI jYJVrb"
+                class="sc-bqyKva cAOthW"
                 role="button"
               >
                 <a
@@ -186,7 +186,7 @@ it('renders correctly', () => {
                   target="_self"
                 >
                   <svg
-                    class="sc-gKsewC ltlkO"
+                    class="sc-fubCfw bxnML"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -212,14 +212,14 @@ it('renders correctly', () => {
                     />
                   </svg>
                   <div
-                    class="sc-iqHYGH jlLnSr"
+                    class="sc-dQppl ibSLUg"
                   >
                     Home
                   </div>
                 </a>
               </div>
               <div
-                class="sc-crrsfI gRZQNm"
+                class="sc-bqyKva dKJAtv"
                 role="button"
               >
                 <a
@@ -227,7 +227,7 @@ it('renders correctly', () => {
                   target="_self"
                 >
                   <svg
-                    class="sc-gKsewC ltlkO"
+                    class="sc-fubCfw bxnML"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -261,14 +261,14 @@ it('renders correctly', () => {
                     />
                   </svg>
                   <div
-                    class="sc-iqHYGH jlLnSr"
+                    class="sc-dQppl ibSLUg"
                   >
                     Vaults
                   </div>
                 </a>
               </div>
               <div
-                class="sc-crrsfI gRZQNm"
+                class="sc-bqyKva dKJAtv"
                 role="button"
               >
                 <a
@@ -276,7 +276,7 @@ it('renders correctly', () => {
                   target="_self"
                 >
                   <svg
-                    class="sc-gKsewC ltlkO"
+                    class="sc-fubCfw bxnML"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -299,14 +299,14 @@ it('renders correctly', () => {
                     />
                   </svg>
                   <div
-                    class="sc-iqHYGH jlLnSr"
+                    class="sc-dQppl ibSLUg"
                   >
                     Migration
                   </div>
                 </a>
               </div>
               <div
-                class="sc-crrsfI gRZQNm"
+                class="sc-bqyKva dKJAtv"
                 role="button"
               >
                 <a
@@ -314,7 +314,7 @@ it('renders correctly', () => {
                   target="_blank"
                 >
                   <svg
-                    class="sc-gKsewC ltlkO"
+                    class="sc-fubCfw bxnML"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -334,14 +334,14 @@ it('renders correctly', () => {
                     />
                   </svg>
                   <div
-                    class="sc-iqHYGH jlLnSr"
+                    class="sc-dQppl ibSLUg"
                   >
                     Docs
                   </div>
                 </a>
               </div>
               <div
-                class="sc-crrsfI gRZQNm"
+                class="sc-bqyKva dKJAtv"
                 role="button"
               >
                 <a
@@ -349,7 +349,7 @@ it('renders correctly', () => {
                   target="_blank"
                 >
                   <svg
-                    class="sc-gKsewC ltlkO"
+                    class="sc-fubCfw bxnML"
                     color="text"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -373,7 +373,7 @@ it('renders correctly', () => {
                     />
                   </svg>
                   <div
-                    class="sc-iqHYGH jlLnSr"
+                    class="sc-dQppl ibSLUg"
                   >
                     Vote
                   </div>
@@ -381,24 +381,24 @@ it('renders correctly', () => {
               </div>
             </div>
             <div
-              class="sc-dIUggk ggQtLk"
+              class="sc-dmlrTW fPisRD"
             >
               <div
-                class="sc-dmlrTW hNsnAn"
+                class="sc-fKFyDc hPvuUm"
               >
                 <div
-                  class="sc-bkzZxe ePArPG"
+                  class="sc-dIUggk iVANKd"
                 >
                   <a
                     aria-label="Github"
-                    class="sc-iBPRYJ sc-fFubgz lkIJIa guucnR"
+                    class="sc-pFZIQ sc-idOhPF jbeWlA iKSIwH"
                     color="primary"
                     href="https://github.com/ballena-io"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
                     <svg
-                      class="sc-gKsewC ltlkO"
+                      class="sc-fubCfw bxnML"
                       color="icon"
                       style="cursor: pointer;"
                       viewBox="0 0 24 24"
@@ -412,10 +412,10 @@ it('renders correctly', () => {
                     </svg>
                   </a>
                   <div
-                    class="sc-fodVxV hBablb"
+                    class="sc-bkzZxe kEyEBW"
                   >
                     <svg
-                      class="sc-gKsewC zHNoB"
+                      class="sc-fubCfw hMiuNI"
                       color="icon"
                       style="cursor: pointer;"
                       viewBox="0 0 24 24"
@@ -436,11 +436,11 @@ it('renders correctly', () => {
                       />
                     </svg>
                     <div
-                      class="sc-hBEYos jBqCvC"
+                      class="sc-fFubgz bQTaMO"
                     >
                       <a
                         aria-label="English"
-                        class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
+                        class="sc-pFZIQ sc-idOhPF hTTmwb iKSIwH"
                         color="icon"
                         href="https://ballena.medium.com"
                         rel="noreferrer noopener"
@@ -450,7 +450,7 @@ it('renders correctly', () => {
                       </a>
                       <a
                         aria-label="Español"
-                        class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
+                        class="sc-pFZIQ sc-idOhPF hTTmwb iKSIwH"
                         color="icon"
                         href="https://ballenaioe.medium.com"
                         rel="noreferrer noopener"
@@ -461,10 +461,10 @@ it('renders correctly', () => {
                     </div>
                   </div>
                   <div
-                    class="sc-fodVxV hBablb"
+                    class="sc-bkzZxe kEyEBW"
                   >
                     <svg
-                      class="sc-gKsewC zHNoB"
+                      class="sc-fubCfw hMiuNI"
                       color="icon"
                       style="cursor: pointer;"
                       viewBox="0 0 24 24"
@@ -476,11 +476,11 @@ it('renders correctly', () => {
                       />
                     </svg>
                     <div
-                      class="sc-hBEYos jBqCvC"
+                      class="sc-fFubgz bQTaMO"
                     >
                       <a
                         aria-label="English"
-                        class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
+                        class="sc-pFZIQ sc-idOhPF hTTmwb iKSIwH"
                         color="icon"
                         href="https://t.me/ballenaenglish"
                         rel="noreferrer noopener"
@@ -490,7 +490,7 @@ it('renders correctly', () => {
                       </a>
                       <a
                         aria-label="Español"
-                        class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
+                        class="sc-pFZIQ sc-idOhPF hTTmwb iKSIwH"
                         color="icon"
                         href="https://t.me/ballenaspanish"
                         rel="noreferrer noopener"
@@ -501,10 +501,10 @@ it('renders correctly', () => {
                     </div>
                   </div>
                   <div
-                    class="sc-fodVxV hBablb"
+                    class="sc-bkzZxe kEyEBW"
                   >
                     <svg
-                      class="sc-gKsewC zHNoB"
+                      class="sc-fubCfw hMiuNI"
                       color="icon"
                       style="cursor: pointer;"
                       viewBox="0 0 24 24"
@@ -516,11 +516,11 @@ it('renders correctly', () => {
                       />
                     </svg>
                     <div
-                      class="sc-hBEYos jBqCvC"
+                      class="sc-fFubgz bQTaMO"
                     >
                       <a
                         aria-label="English"
-                        class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
+                        class="sc-pFZIQ sc-idOhPF hTTmwb iKSIwH"
                         color="icon"
                         href="https://twitter.com/ballenaio"
                         rel="noreferrer noopener"
@@ -530,7 +530,7 @@ it('renders correctly', () => {
                       </a>
                       <a
                         aria-label="Español"
-                        class="sc-iBPRYJ sc-fFubgz YIMWx guucnR"
+                        class="sc-pFZIQ sc-idOhPF hTTmwb iKSIwH"
                         color="icon"
                         href="https://twitter.com/BallenaioE"
                         rel="noreferrer noopener"
@@ -543,160 +543,160 @@ it('renders correctly', () => {
                 </div>
               </div>
               <div
-                class="sc-hHftDr cnPTSb"
+                class="sc-kfzAmx bdVoEU"
               >
                 <div
-                  class="sc-fodVxV hBablb"
+                  class="sc-bkzZxe kEyEBW"
                 >
                   <button
-                    class="sc-pFZIQ lnQbPX"
+                    class="sc-kEjbxe cQiAIs"
                     scale="md0"
                   >
                     <div
-                      class="sc-iBPRYJ yGQvr"
+                      class="sc-pFZIQ itViXh"
                       color="icon"
                     >
                       EN
                     </div>
                   </button>
                   <div
-                    class="sc-hBEYos jBqCvC"
+                    class="sc-fFubgz bQTaMO"
                   >
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English0
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English1
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English2
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English3
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English4
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English5
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English6
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English7
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English8
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English9
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English10
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English11
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English12
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English13
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English14
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English15
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English16
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English17
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
                       English18
                     </button>
                     <button
-                      class="sc-pFZIQ ekeHxg sc-jrAGrp bQWwvU"
+                      class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
                       scale="md"
                       style="min-height: 32px; height: auto;"
                     >
@@ -705,11 +705,11 @@ it('renders correctly', () => {
                   </div>
                 </div>
                 <button
-                  class="sc-pFZIQ lnQbPX sc-idOhPF lgUvgS"
+                  class="sc-kEjbxe cQiAIs sc-hHftDr cRIOLi"
                   scale="md0"
                 >
                   <svg
-                    class="sc-gKsewC ltlkO"
+                    class="sc-fubCfw bxnML"
                     color="icon"
                     viewBox="0 0 24 24"
                     width="24px"
@@ -750,12 +750,12 @@ it('renders correctly', () => {
             </div>
           </div>
           <div
-            class="sc-hiSbYr dNmlwx"
+            class="sc-cBNfnY dSqjgY"
           >
             body
           </div>
           <div
-            class="sc-dlfnbm sc-gWHgXt kgrCKx IZmxf"
+            class="sc-dlfnbm sc-citwmv kgrCKx GCzmW"
             role="presentation"
           />
         </div>
