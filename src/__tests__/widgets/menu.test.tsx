@@ -108,7 +108,7 @@ it('renders correctly', () => {
           >
             <a
               class="sc-jrAGrp hKMsia"
-              href=""
+              href="https://bscscan.com/address/0x9714C04b34E6300964161c3aC37b86451E79152d"
               target="_blank"
             >
               <svg

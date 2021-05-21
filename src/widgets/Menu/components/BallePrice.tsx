@@ -24,9 +24,8 @@ const PriceLink = styled.a`
 `;
 
 const BallePrice: React.FC<Props> = ({ ballePriceUsd }) => {
-  // TODO: Add a link to BALLE contract when we deploy
   return ballePriceUsd ? (
-    <PriceLink href="" target="_blank">
+    <PriceLink href="https://bscscan.com/address/0x9714C04b34E6300964161c3aC37b86451E79152d" target="_blank">
       <LogoRoundIcon width="24px" mr="8px" />
       <Text color="textSubtle" bold>{`$${ballePriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
