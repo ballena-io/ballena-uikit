@@ -78,18 +78,6 @@ it('renders correctly', () => {
               href="/"
             >
               <svg
-                class="sc-fubCfw bxnML mobile-icon"
-                color="text"
-                viewBox="0 0 30 26"
-                width="20px"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <image
-                  height="26"
-                  href="/images/ballena/logo.png"
-                />
-              </svg>
-              <svg
                 class="sc-fubCfw bxnML desktop-icon"
                 color="text"
                 viewBox="0 0 116 26"

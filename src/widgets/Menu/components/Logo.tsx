@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 import Flex from '../../../components/Box/Flex';
-import { LogoIcon } from '../../../components/Svg';
 import { CloseIcon, HamburgerIcon, LogoIcon as LogoWithText } from '../icons';
 import MenuButton from './MenuButton';
 
@@ -36,7 +35,6 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   const isAbsoluteUrl = href.startsWith('http');
   const innerLogo = (
     <>
-      <LogoIcon className="mobile-icon" />
       <LogoWithText className="desktop-icon" isDark={isDark} />
     </>
   );
