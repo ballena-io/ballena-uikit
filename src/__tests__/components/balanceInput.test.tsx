@@ -13,7 +13,7 @@ it('renders correctly', () => {
         class="sc-gsTCUz sc-hKgILt jLyPtw tAeiD"
       >
         <input
-          class="sc-dlfnbm sc-eCssSg hCLIJX kopLot"
+          class="sc-dlfnbm sc-eCssSg hCLIJX dgtdWg"
           placeholder="0.0"
           scale="md"
           type="number"
