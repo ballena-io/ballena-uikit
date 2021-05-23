@@ -25,4 +25,13 @@ export const StyledInput = styled(Input)`
   &:focus:not(:disabled) {
     box-shadow: none;
   }
+
+  ::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 `;
