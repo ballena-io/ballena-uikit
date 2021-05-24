@@ -28,7 +28,7 @@ const MenuEntry = styled.div<Props>`
   cursor: pointer;
   display: flex;
   align-items: center;
-  padding: ${({ secondary }) => (secondary ? '0 32px' : '8px 4px 8px 4px')};
+  padding: ${({ secondary }) => (secondary ? '8px 32px' : '8px 4px 8px 4px')};
   font-size: ${({ secondary }) => (secondary ? '12px' : '14px')};
   background-color: ${({ secondary, theme }) => (secondary ? theme.colors.background : 'transparent')};
   color: ${({ theme }) => theme.colors.icon};

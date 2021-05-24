@@ -47,10 +47,10 @@ it('renders correctly', () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <div
-        class="sc-jJEJSO jPLnEW"
+        class="sc-hiSbYr innQvm"
       >
         <nav
-          class="sc-hiSbYr iMHNYy"
+          class="sc-gWHgXt kmImMa"
         >
           <div
             class="sc-bdfBwQ sc-gsTCUz iwJkGQ ckYhbt"
@@ -155,13 +155,13 @@ it('renders correctly', () => {
           </div>
         </nav>
         <div
-          class="sc-gWHgXt gKIFCh"
+          class="sc-cBNfnY dOmfSk"
         >
           <div
-            class="sc-bBXqnf kxrZfN"
+            class="sc-iwyYcG czZGUO"
           >
             <div
-              class="sc-fodVxV jbZrFL"
+              class="sc-fFubgz huBPHA"
             >
               <div
                 class="sc-bqyKva cAOthW"
@@ -367,19 +367,62 @@ it('renders correctly', () => {
                   </div>
                 </a>
               </div>
-            </div>
-            <div
-              class="sc-dmlrTW fPisRD"
-            >
               <div
-                class="sc-fKFyDc hPvuUm"
+                class="sc-kstrdz bpxVKN"
               >
                 <div
-                  class="sc-dIUggk iVANKd"
+                  class="sc-bqyKva dKJAtv"
+                  role="button"
+                >
+                  <div
+                    class="sc-hBEYos bomIyf"
+                  >
+                    <svg
+                      class="sc-fubCfw bxnML"
+                      color="text"
+                      viewBox="0 0 24 24"
+                      width="24px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M23 12L20.56 9.21L20.9 5.52L17.29 4.7L15.4 1.5L12 2.96L8.6 1.5L6.71 4.69L3.1 5.5L3.44 9.2L1 12L3.44 14.79L3.1 18.49L6.71 19.31L8.6 22.5L12 21.03L15.4 22.49L17.29 19.3L20.9 18.48L20.56 14.79L23 12ZM9.38 16.01L7 13.61C6.61 13.22 6.61 12.59 7 12.2L7.07 12.13C7.46 11.74 8.1 11.74 8.49 12.13L10.1 13.75L15.25 8.59C15.64 8.2 16.28 8.2 16.67 8.59L16.74 8.66C17.13 9.05 17.13 9.68 16.74 10.07L10.82 16.01C10.41 16.4 9.78 16.4 9.38 16.01Z"
+                      />
+                    </svg>
+                    <div
+                      class="sc-dQppl ibSLUg"
+                    >
+                      Audits
+                    </div>
+                    <svg
+                      class="sc-fubCfw bxnML"
+                      color="text"
+                      viewBox="0 0 24 24"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.71005 11.71L11.3001 14.3C11.6901 14.69 12.3201 14.69 12.7101 14.3L15.3001 11.71C15.9301 11.08 15.4801 10 14.5901 10H9.41005C8.52005 10 8.08005 11.08 8.71005 11.71Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  class="sc-fodVxV jmjiri"
+                />
+              </div>
+            </div>
+            <div
+              class="sc-kfzAmx hexZSU"
+            >
+              <div
+                class="sc-bBXqnf bsuXCq"
+              >
+                <div
+                  class="sc-hHftDr ilRWpO"
                 >
                   <a
                     aria-label="Github"
-                    class="sc-pFZIQ sc-idOhPF jbeWlA iKSIwH"
+                    class="sc-pFZIQ sc-dIUggk jbeWlA jjJLgo"
                     color="primary"
                     href="https://github.com/ballena-io"
                     rel="noreferrer noopener"
@@ -400,7 +443,7 @@ it('renders correctly', () => {
                     </svg>
                   </a>
                   <div
-                    class="sc-bkzZxe kEyEBW"
+                    class="sc-idOhPF bimqSu"
                   >
                     <svg
                       class="sc-fubCfw hMiuNI"
@@ -424,11 +467,11 @@ it('renders correctly', () => {
                       />
                     </svg>
                     <div
-                      class="sc-fFubgz bQTaMO"
+                      class="sc-bkzZxe fnSjZs"
                     >
                       <a
                         aria-label="English"
-                        class="sc-pFZIQ sc-idOhPF hTTmwb iKSIwH"
+                        class="sc-pFZIQ sc-dIUggk hTTmwb jjJLgo"
                         color="icon"
                         href="https://ballena.medium.com"
                         rel="noreferrer noopener"
@@ -438,7 +481,7 @@ it('renders correctly', () => {
                       </a>
                       <a
                         aria-label="Español"
-                        class="sc-pFZIQ sc-idOhPF hTTmwb iKSIwH"
+                        class="sc-pFZIQ sc-dIUggk hTTmwb jjJLgo"
                         color="icon"
                         href="https://ballenaioe.medium.com"
                         rel="noreferrer noopener"
@@ -449,7 +492,7 @@ it('renders correctly', () => {
                     </div>
                   </div>
                   <div
-                    class="sc-bkzZxe kEyEBW"
+                    class="sc-idOhPF bimqSu"
                   >
                     <svg
                       class="sc-fubCfw hMiuNI"
@@ -464,11 +507,11 @@ it('renders correctly', () => {
                       />
                     </svg>
                     <div
-                      class="sc-fFubgz bQTaMO"
+                      class="sc-bkzZxe fnSjZs"
                     >
                       <a
                         aria-label="English"
-                        class="sc-pFZIQ sc-idOhPF hTTmwb iKSIwH"
+                        class="sc-pFZIQ sc-dIUggk hTTmwb jjJLgo"
                         color="icon"
                         href="https://t.me/ballenaenglish"
                         rel="noreferrer noopener"
@@ -478,7 +521,7 @@ it('renders correctly', () => {
                       </a>
                       <a
                         aria-label="Español"
-                        class="sc-pFZIQ sc-idOhPF hTTmwb iKSIwH"
+                        class="sc-pFZIQ sc-dIUggk hTTmwb jjJLgo"
                         color="icon"
                         href="https://t.me/ballenaspanish"
                         rel="noreferrer noopener"
@@ -489,7 +532,7 @@ it('renders correctly', () => {
                     </div>
                   </div>
                   <div
-                    class="sc-bkzZxe kEyEBW"
+                    class="sc-idOhPF bimqSu"
                   >
                     <svg
                       class="sc-fubCfw hMiuNI"
@@ -504,11 +547,11 @@ it('renders correctly', () => {
                       />
                     </svg>
                     <div
-                      class="sc-fFubgz bQTaMO"
+                      class="sc-bkzZxe fnSjZs"
                     >
                       <a
                         aria-label="English"
-                        class="sc-pFZIQ sc-idOhPF hTTmwb iKSIwH"
+                        class="sc-pFZIQ sc-dIUggk hTTmwb jjJLgo"
                         color="icon"
                         href="https://twitter.com/ballenaio"
                         rel="noreferrer noopener"
@@ -518,7 +561,7 @@ it('renders correctly', () => {
                       </a>
                       <a
                         aria-label="Español"
-                        class="sc-pFZIQ sc-idOhPF hTTmwb iKSIwH"
+                        class="sc-pFZIQ sc-dIUggk hTTmwb jjJLgo"
                         color="icon"
                         href="https://twitter.com/BallenaioE"
                         rel="noreferrer noopener"
@@ -531,10 +574,10 @@ it('renders correctly', () => {
                 </div>
               </div>
               <div
-                class="sc-kfzAmx bdVoEU"
+                class="sc-fKFyDc crsDte"
               >
                 <div
-                  class="sc-bkzZxe kEyEBW"
+                  class="sc-idOhPF bimqSu"
                 >
                   <button
                     class="sc-kEjbxe cQiAIs"
@@ -548,7 +591,7 @@ it('renders correctly', () => {
                     </div>
                   </button>
                   <div
-                    class="sc-fFubgz bQTaMO"
+                    class="sc-bkzZxe fnSjZs"
                   >
                     <button
                       class="sc-kEjbxe fcPGIf sc-iqHYGH gOUsNC"
@@ -693,7 +736,7 @@ it('renders correctly', () => {
                   </div>
                 </div>
                 <button
-                  class="sc-kEjbxe cQiAIs sc-hHftDr cRIOLi"
+                  class="sc-kEjbxe cQiAIs sc-dmlrTW hPiNdq"
                   scale="md0"
                 >
                   <svg
@@ -738,12 +781,12 @@ it('renders correctly', () => {
             </div>
           </div>
           <div
-            class="sc-cBNfnY dSqjgY"
+            class="sc-citwmv dvWtEU"
           >
             body
           </div>
           <div
-            class="sc-dlfnbm sc-citwmv kgrCKx GCzmW"
+            class="sc-dlfnbm sc-jcVebW kgrCKx cjyahb"
             role="presentation"
           />
         </div>
