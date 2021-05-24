@@ -1,9 +1,10 @@
 import React, { ReactNode, useState } from 'react';
 import styled from 'styled-components';
-import { MENU_ENTRY_HEIGHT } from '../config';
-import { LinkLabel, MenuEntry } from './MenuEntry';
-import { PushedProps } from '../types';
+
 import { ArrowDropDownIcon, ArrowDropUpIcon } from '../../../components/Svg';
+import { MENU_ENTRY_HEIGHT } from '../config';
+import { PushedProps } from '../types';
+import { LinkLabel, MenuEntry } from './MenuEntry';
 
 interface Props extends PushedProps {
   label: string;
@@ -19,6 +20,13 @@ const Container = styled.div`
   flex-direction: column;
   // Safari fix
   flex-shrink: 0;
+`;
+
+const MenuItem = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 `;
 
 const AccordionContent = styled.div<{ isOpen: boolean; isPushed: boolean; maxHeight: number }>`
@@ -54,9 +62,11 @@ const Accordion: React.FC<Props> = ({
   return (
     <Container>
       <MenuEntry onClick={handleClick} className={className} isActive={isActive}>
-        {icon}
-        <LinkLabel isPushed={isPushed}>{label}</LinkLabel>
-        {isOpen ? <ArrowDropUpIcon /> : <ArrowDropDownIcon />}
+        <MenuItem>
+          {icon}
+          <LinkLabel isPushed={isPushed}>{label}</LinkLabel>
+          {isOpen ? <ArrowDropUpIcon /> : <ArrowDropDownIcon />}
+        </MenuItem>
       </MenuEntry>
       <AccordionContent
         isOpen={isOpen}

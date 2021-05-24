@@ -26,58 +26,23 @@ export const links = [
     href: 'https://vote.ballena.io',
     external: true,
   },
-
-  // {
-  //   label: 'Vote',
-  //   icon: 'MoreIcon',
-  //   items: [
-  // {
-  //   label: 'Blog',
-  //   href: 'https://ballena.medium.com/',
-  // },
-  // {
-  //   label: 'Docs',
-  //   href: 'https://docs.ballena.io',
-  // },
-  //     {
-  //       label: 'Vote',
-  //       href: 'https://vote.ballena.io',
-  //     },
-  //     {
-  //       label: 'Github',
-  //       href: 'https://github.com/ballena-io',
-  //     },
-  //   ],
-  // },
-  // {
-  //   label: 'Telegram',
-  //   icon: 'TelegramIcon',
-  //   items: [
-  //     {
-  //       label: 'English',
-  //       href: 'https://t.me/ballenaenglish',
-  //     },
-  //     {
-  //       label: 'Español',
-  //       href: 'https://t.me/ballenaspanish',
-  //     },
-  //   ],
-  // },
-  // {
-  //   label: 'Twitter',
-  //   icon: 'TwitterIcon',
-  //   href: '',
-  //   items: [
-  //     {
-  //       label: 'English',
-  //       href: 'https://twitter.com/ballenaio',
-  //     },
-  //     {
-  //       label: 'Español',
-  //       href: 'https://twitter.com/BallenaioE',
-  //     },
-  //   ],
-  // },
+  {
+    label: 'Audits',
+    icon: 'VerifiedIcon',
+    items: [
+      {
+        label: 'Audit_1',
+        href: 'https://ballena.medium.com/',
+        external: true,
+      },
+      {
+        label: 'Audit_2',
+        href: 'https://ballena.medium.com/',
+        external: true,
+      },
+    ],
+    href: 'https://ballena.medium.com/',
+  },
 ];
 
 export const socials = [
