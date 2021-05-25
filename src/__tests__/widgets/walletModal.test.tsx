@@ -18,7 +18,7 @@ it('renders ConnectModal correctly', () => {
             class="sc-hKgILt sc-eCssSg sc-jrAGrp hRTSdF dGaYEX eYDuGd"
           >
             <h2
-              class="sc-bdfBwQ sc-iBPRYJ hgYRjL bhFMpX"
+              class="sc-bdfBwQ sc-iBPRYJ hgYRjL kluPBY"
               color="text"
             >
               Connect to a wallet
@@ -474,7 +474,7 @@ it('renders AccountModal correctly', () => {
             class="sc-hKgILt sc-eCssSg sc-jrAGrp hRTSdF dGaYEX eYDuGd"
           >
             <h2
-              class="sc-bdfBwQ sc-iBPRYJ hgYRjL bhFMpX"
+              class="sc-bdfBwQ sc-iBPRYJ hgYRjL kluPBY"
               color="text"
             >
               Your wallet
