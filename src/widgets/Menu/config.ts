@@ -10,6 +10,11 @@ export const links = [
     href: '/farms',
   },
   {
+    label: 'Staking',
+    icon: 'StakingIcon',
+    href: '/staking',
+  },
+  {
     label: 'Migration',
     icon: 'MigrationIcon',
     href: 'https://ballena.medium.com/',
