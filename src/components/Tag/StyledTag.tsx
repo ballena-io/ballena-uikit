@@ -11,8 +11,8 @@ interface ThemedProps extends TagProps {
 
 const getOutlineStyles = ({ outline, theme, variant: variantKey = variants.PRIMARY }: ThemedProps) => {
   if (outline) {
-    const themeColorKey = styleVariants[variantKey].backgroundColor as keyof Colors;
-    const color = theme.colors[themeColorKey];
+    const themeColorkey = styleVariants[variantKey].backgroundColor as keyof Colors;
+    const color = theme.colors[themeColorkey];
 
     return `
       color: ${color};
