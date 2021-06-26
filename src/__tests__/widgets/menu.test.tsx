@@ -467,19 +467,19 @@ it('renders correctly', () => {
               </div>
             </div>
             <div
-              class="sc-kfzAmx hexZSU"
+              class="sc-kfzAmx bvDAiv"
             >
               <div
-                class="sc-bBXqnf bsuXCq"
+                class="sc-bBXqnf bXkbTQ"
               >
                 <div
                   class="sc-hHftDr ilRWpO"
                 >
                   <a
-                    aria-label="Github"
+                    aria-label="Discord"
                     class="sc-pFZIQ sc-dIUggk jbeWlA jjJLgo"
                     color="primary"
-                    href="https://github.com/ballena-io"
+                    href="https://discord.gg/RsgFKMHxd5"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -487,65 +487,15 @@ it('renders correctly', () => {
                       class="sc-fubCfw bxnML"
                       color="icon"
                       style="cursor: pointer;"
-                      viewBox="0 0 24 24"
+                      viewBox="0 0 24 18"
                       width="24px"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M12,0A12.15,12.15,0,0,0,0,12.3,12.27,12.27,0,0,0,8.2,24c.6.1.83-.26.83-.59s0-1.26,0-2.29c-3,.57-3.8-.75-4-1.45a4.41,4.41,0,0,0-1.23-1.73c-.42-.23-1-.8,0-.82a2.42,2.42,0,0,1,1.84,1.26,2.54,2.54,0,0,0,3.5,1,2.58,2.58,0,0,1,.76-1.65c-2.67-.31-5.46-1.37-5.46-6.07A4.88,4.88,0,0,1,5.61,8.35a4.53,4.53,0,0,1,.12-3.26s1-.32,3.3,1.26a11.18,11.18,0,0,1,6,0c2.3-1.6,3.3-1.26,3.3-1.26a4.53,4.53,0,0,1,.12,3.26,4.8,4.8,0,0,1,1.23,3.31c0,4.72-2.8,5.76-5.47,6.07A3,3,0,0,1,15,20c0,1.64,0,3,0,3.38s.22.71.83.59A12.3,12.3,0,0,0,24,12.3,12.15,12.15,0,0,0,12,0Z"
-                        transform="translate(0 0)"
+                        d="m20.317 1.60293c-1.5297-.67955-3.17-1.180212-4.8851-1.466961-.0312-.005535-.0624.008296-.0785.035957-.211.363276-.4447.837204-.6083 1.209704-1.8447-.26738-3.6799-.26738-5.48678 0-.16367-.38078-.40584-.846428-.61775-1.209704-.01608-.026739-.04729-.040569-.07852-.035957-1.71414.285833-3.35449.786495-4.88512 1.466961-.01325.00553-.0246.01476-.03214.02674-3.111398 4.50046-3.96374 8.89033-3.5456099 13.22573.0018919.0212.0141899.0415.0312179.0544 2.052812 1.4595 4.041312 2.3456 5.992882 2.933.03123.0092.06433-.0019.0842-.0268.46165-.6103.87316-1.2539 1.226-1.9307.02082-.0397.00094-.0867-.04162-.1024-.65273-.2397-1.27426-.532-1.87213-.8639-.04729-.0267-.05108-.0922-.00757-.1236.12581-.0913.25166-.1862.3718-.2821.02173-.0175.05202-.0212.07757-.0102 3.92775 1.7363 8.17997 1.7363 12.06147 0 .0255-.0119.0558-.0082.0785.0093.1201.0959.246.1917.3727.283.0435.0314.0407.0969-.0066.1236-.5979.3384-1.2194.6242-1.8731.863-.0425.0157-.0615.0636-.0407.1033.3605.6758.772 1.3194 1.2251 1.9298.0189.0258.053.0369.0842.0277 1.961-.5874 3.9495-1.4735 6.0023-2.933.018-.0129.0294-.0323.0313-.0535.5004-5.01222-.8382-9.36606-3.5485-13.22572-.0066-.01289-.0179-.02212-.0312-.02765zm-12.29698 10.61267c-1.18252 0-2.15689-1.0511-2.15689-2.342 0-1.29086.95547-2.34196 2.15689-2.34196 1.21085 0 2.17578 1.06033 2.15688 2.34196 0 1.2909-.95549 2.342-2.15688 2.342zm7.97468 0c-1.1824 0-2.1568-1.0511-2.1568-2.342 0-1.29086.9554-2.34196 2.1568-2.34196 1.2109 0 2.1758 1.06033 2.1569 2.34196 0 1.2909-.946 2.342-2.1569 2.342z"
                       />
                     </svg>
                   </a>
-                  <div
-                    class="sc-idOhPF bimqSu"
-                  >
-                    <svg
-                      class="sc-fubCfw hMiuNI"
-                      color="icon"
-                      style="cursor: pointer;"
-                      viewBox="0 0 24 24"
-                      width="24px"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M9.11,18.41v0h0L4.59,16.17A.3.3,0,0,1,4.46,16V5.65L9.11,8Z"
-                      />
-                      <polygon
-                        points="9.67 13.5 9.67 8.81 13.85 15.58 9.67 13.5"
-                      />
-                      <polygon
-                        points="11.53 10.74 14.73 5.58 19.42 7.91 14.61 15.74 11.53 10.74"
-                      />
-                      <path
-                        d="M19.54,18.41v0h0L15,16.16l4.52-7.35Z"
-                      />
-                    </svg>
-                    <div
-                      class="sc-bkzZxe fnSjZs"
-                    >
-                      <a
-                        aria-label="English"
-                        class="sc-pFZIQ sc-dIUggk hTTmwb jjJLgo"
-                        color="icon"
-                        href="https://ballena.medium.com"
-                        rel="noreferrer noopener"
-                        target="_blank"
-                      >
-                        English
-                      </a>
-                      <a
-                        aria-label="Español"
-                        class="sc-pFZIQ sc-dIUggk hTTmwb jjJLgo"
-                        color="icon"
-                        href="https://ballenaioe.medium.com"
-                        rel="noreferrer noopener"
-                        target="_blank"
-                      >
-                        Español
-                      </a>
-                    </div>
-                  </div>
                   <div
                     class="sc-idOhPF bimqSu"
                   >
@@ -626,17 +576,88 @@ it('renders correctly', () => {
                       </a>
                     </div>
                   </div>
+                  <div
+                    class="sc-idOhPF bimqSu"
+                  >
+                    <svg
+                      class="sc-fubCfw hMiuNI"
+                      color="icon"
+                      style="cursor: pointer;"
+                      viewBox="0 0 24 24"
+                      width="24px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.11,18.41v0h0L4.59,16.17A.3.3,0,0,1,4.46,16V5.65L9.11,8Z"
+                      />
+                      <polygon
+                        points="9.67 13.5 9.67 8.81 13.85 15.58 9.67 13.5"
+                      />
+                      <polygon
+                        points="11.53 10.74 14.73 5.58 19.42 7.91 14.61 15.74 11.53 10.74"
+                      />
+                      <path
+                        d="M19.54,18.41v0h0L15,16.16l4.52-7.35Z"
+                      />
+                    </svg>
+                    <div
+                      class="sc-bkzZxe fnSjZs"
+                    >
+                      <a
+                        aria-label="English"
+                        class="sc-pFZIQ sc-dIUggk hTTmwb jjJLgo"
+                        color="icon"
+                        href="https://ballena.medium.com"
+                        rel="noreferrer noopener"
+                        target="_blank"
+                      >
+                        English
+                      </a>
+                      <a
+                        aria-label="Español"
+                        class="sc-pFZIQ sc-dIUggk hTTmwb jjJLgo"
+                        color="icon"
+                        href="https://ballenaioe.medium.com"
+                        rel="noreferrer noopener"
+                        target="_blank"
+                      >
+                        Español
+                      </a>
+                    </div>
+                  </div>
+                  <a
+                    aria-label="Github"
+                    class="sc-pFZIQ sc-dIUggk jbeWlA jjJLgo"
+                    color="primary"
+                    href="https://github.com/ballena-io"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    <svg
+                      class="sc-fubCfw bxnML"
+                      color="icon"
+                      style="cursor: pointer;"
+                      viewBox="0 0 24 24"
+                      width="24px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12,0A12.15,12.15,0,0,0,0,12.3,12.27,12.27,0,0,0,8.2,24c.6.1.83-.26.83-.59s0-1.26,0-2.29c-3,.57-3.8-.75-4-1.45a4.41,4.41,0,0,0-1.23-1.73c-.42-.23-1-.8,0-.82a2.42,2.42,0,0,1,1.84,1.26,2.54,2.54,0,0,0,3.5,1,2.58,2.58,0,0,1,.76-1.65c-2.67-.31-5.46-1.37-5.46-6.07A4.88,4.88,0,0,1,5.61,8.35a4.53,4.53,0,0,1,.12-3.26s1-.32,3.3,1.26a11.18,11.18,0,0,1,6,0c2.3-1.6,3.3-1.26,3.3-1.26a4.53,4.53,0,0,1,.12,3.26,4.8,4.8,0,0,1,1.23,3.31c0,4.72-2.8,5.76-5.47,6.07A3,3,0,0,1,15,20c0,1.64,0,3,0,3.38s.22.71.83.59A12.3,12.3,0,0,0,24,12.3,12.15,12.15,0,0,0,12,0Z"
+                        transform="translate(0 0)"
+                      />
+                    </svg>
+                  </a>
                 </div>
               </div>
               <div
-                class="sc-fKFyDc crsDte"
+                class="sc-fKFyDc VQicc"
               >
                 <div
                   class="sc-idOhPF bimqSu"
                 >
                   <button
-                    class="sc-kEjbxe cQiAIs"
-                    scale="md0"
+                    class="sc-kEjbxe gqoetz"
+                    scale="xs"
                   >
                     <div
                       class="sc-pFZIQ itViXh"
@@ -791,8 +812,8 @@ it('renders correctly', () => {
                   </div>
                 </div>
                 <button
-                  class="sc-kEjbxe cQiAIs sc-dmlrTW hPiNdq"
-                  scale="md0"
+                  class="sc-kEjbxe gqoetz sc-dmlrTW gnYNvW"
+                  scale="xs"
                 >
                   <svg
                     class="sc-fubCfw bxnML"
