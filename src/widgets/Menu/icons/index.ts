@@ -1,5 +1,6 @@
 export { default as CloseIcon } from './Close';
 export { default as DocsIcon } from './Docs';
+export { default as DiscordIcon } from './Discord';
 export { default as FarmIcon } from './Farm';
 export { default as GithubIcon } from './Github';
 export { default as GroupsIcon } from './Groups';

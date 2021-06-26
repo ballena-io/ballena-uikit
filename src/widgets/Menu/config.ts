@@ -52,23 +52,9 @@ export const links = [
 
 export const socials = [
   {
-    label: 'Github',
-    icon: 'GithubIcon',
-    href: 'https://github.com/ballena-io',
-  },
-  {
-    label: 'Blog',
-    icon: 'MediumIcon',
-    items: [
-      {
-        label: 'English',
-        href: 'https://ballena.medium.com',
-      },
-      {
-        label: 'Español',
-        href: 'https://ballenaioe.medium.com',
-      },
-    ],
+    label: 'Discord',
+    icon: 'DiscordIcon',
+    href: 'https://discord.gg/RsgFKMHxd5',
   },
   {
     label: 'Telegram',
@@ -99,11 +85,29 @@ export const socials = [
       },
     ],
   },
+  {
+    label: 'Blog',
+    icon: 'MediumIcon',
+    items: [
+      {
+        label: 'English',
+        href: 'https://ballena.medium.com',
+      },
+      {
+        label: 'Español',
+        href: 'https://ballenaioe.medium.com',
+      },
+    ],
+  },
+  {
+    label: 'Github',
+    icon: 'GithubIcon',
+    href: 'https://github.com/ballena-io',
+  },
 ];
 
 export const MENU_HEIGHT = 64;
 export const MENU_ENTRY_HEIGHT = 48;
-export const MENU_ENTRY_SETTINGS_HEIGHT = 72;
-export const MENU_ENTRY_SOCIAL_HEIGHT = 122;
+export const MENU_FOOTER_HEIGHT = 240;
 export const SIDEBAR_WIDTH_FULL = 80;
 export const SIDEBAR_WIDTH_REDUCED = 72;

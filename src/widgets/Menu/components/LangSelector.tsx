@@ -22,7 +22,7 @@ const LangSelector: React.FC<Props> = ({ currentLang, langs, setLang }) => {
     <Dropdown
       position="top-right"
       target={
-        <Button scale="md0" variant="text">
+        <Button scale="xs" variant="text">
           <Text color="icon">{buttonText?.toUpperCase()}</Text>
         </Button>
       }

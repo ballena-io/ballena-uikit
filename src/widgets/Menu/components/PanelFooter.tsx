@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { MENU_ENTRY_SETTINGS_HEIGHT, MENU_ENTRY_SOCIAL_HEIGHT } from '../config';
+import { MENU_FOOTER_HEIGHT } from '../config';
 import { PanelProps, PushedProps } from '../types';
 import LangSelector from './LangSelector';
 import SocialLinks from './SocialLinks';
@@ -14,6 +14,8 @@ const Container = styled.div<{ isPushed: boolean }>`
   background-color: ${({ theme }) => theme.nav.background};
   height: 210px;
   overflow-x: ${({ isPushed }) => (isPushed ? 'visible' : 'hidden')};
+  min-height: ${MENU_FOOTER_HEIGHT}px;
+  padding-top: 10px;
 `;
 
 const FooterSection = styled.div`
@@ -22,7 +24,6 @@ const FooterSection = styled.div`
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  height: ${MENU_ENTRY_SETTINGS_HEIGHT}px;
   padding: 0 12px;
 `;
 
@@ -32,7 +33,6 @@ const SocialSection = styled.div`
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  height: ${MENU_ENTRY_SOCIAL_HEIGHT}px;
   padding: 0 12px;
 `;
 
