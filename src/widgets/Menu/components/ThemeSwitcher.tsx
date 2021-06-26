@@ -16,10 +16,11 @@ interface Props {
 const StyledButton = styled(Button)`
   display: flex;
   justify-content: left;
+  margin-top: 12px;
 `;
 
 const ThemeSwitcher: React.FC<Props> = ({ isDark, toggleTheme }) => (
-  <StyledButton variant="text" onClick={() => toggleTheme(!isDark)} scale="md0">
+  <StyledButton variant="text" onClick={() => toggleTheme(!isDark)} scale="xs">
     {isDark ? <MoonIcon color="icon" width="24px" /> : <SunIcon color="icon" width="24px" />}
   </StyledButton>
 );
